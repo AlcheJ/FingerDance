@@ -1,0 +1,22 @@
+{
+    "notes": [
+        {
+            "bar": 0,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 0,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 0,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short"
+        }
+    ]
+}

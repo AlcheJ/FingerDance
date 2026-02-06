@@ -1,0 +1,22 @@
+{
+    "songID": "FD001CE",
+    "songTitle": "Combine Each Other!",
+    "bpm": 104,
+    "numerator": 4,
+    "denominator": 4,
+    "previewStartTime": 9.22,
+    "audioFileName": "S_FD001CE",
+    "jacketImage": "J_FD001CE",
+    "difficulty": [
+        {
+            "difficultyType": "Normal",
+            "level": 1,
+            "chartFileName": "FD001CE_NM"
+        },
+        {
+            "difficultyType": "Hard",
+            "level": 4,
+            "chartFileName": "FD001CE_HD"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "notes": [
+        {
+            "bar": 0,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 2,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        }
+    ]
+}

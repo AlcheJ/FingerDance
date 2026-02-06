@@ -1,0 +1,22 @@
+{
+    "songID": "FD002TC",
+    "songTitle": "Theme of Corvelie",
+    "bpm": 157,
+    "numerator": 3,
+    "denominator": 4,
+    "previewStartTime": 59.61,
+    "audioFileName": "S_FD002TC",
+    "jacketImage": "J_FD002TC",
+    "difficulty": [
+        {
+            "difficultyType": "Normal",
+            "level": 2,
+            "chartFileName": "FD002TC_NM"
+        },
+        {
+            "difficultyType": "Hard",
+            "level": 5,
+            "chartFileName": "FD002TC_HD"
+        }
+    ]
+}

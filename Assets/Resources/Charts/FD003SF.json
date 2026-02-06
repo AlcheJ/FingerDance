@@ -1,0 +1,22 @@
+{
+    "songID": "FD003SF",
+    "songTitle": "Sunny Field",
+    "bpm": 116,
+    "numerator": 4,
+    "denominator": 4,
+    "previewStartTime": 16.54,
+    "audioFileName": "S_FD003SF",
+    "jacketImage": "J_FD003SF",
+    "difficulty": [
+        {
+            "difficultyType": "Normal",
+            "level": 3,
+            "chartFileName": "FD003SF_NM"
+        },
+        {
+            "difficultyType": "Hard",
+            "level": 6,
+            "chartFileName": "FD003SF_HD"
+        }
+    ]
+}
