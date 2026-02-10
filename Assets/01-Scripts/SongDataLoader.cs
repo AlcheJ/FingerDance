@@ -42,6 +42,7 @@ public class SongDataLoader : MonoBehaviour
 
         foreach(NoteData note in chart.Notes)
         {
+            Debug.Log($"[DataLoader] 마디:{note.Bar}, 틱:{note.Tick}, 타입:{note.Type}");
             //해당 마디까지 흐른 총 틱수
             //(총 틱수)*(틱당 시간) = 절대 시간(targetTime = 판정선에 도달하는 시간)
             long totalTicks = (long)note.Bar * ticksPerMeasure + note.Tick;
@@ -50,6 +51,7 @@ public class SongDataLoader : MonoBehaviour
             if(note.Type == NoteType.Long)
             {
                 note.DurationTime = note.DurationTick * secondsPerTick;
+                Debug.Log($"[LongNote Data] {meta.SongTitle} - Duration: {note.DurationTime}s");
             }
         }
         //노트 데이터를 시간순 정렬

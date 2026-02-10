@@ -8,7 +8,7 @@ public class NoteObject : MonoBehaviour
     [SerializeField] protected SpriteRenderer _sr;
 
     private float _targetTime; //판정선에 도달해야 할 절대 시간
-    private float _currentJudgmentY; // 스포너로부터 전달받을 판정선 높이
+    protected float _currentJudgmentY; // 스포너로부터 전달받을 판정선 높이
     private int _lane;
     private bool _isHit = false; //이미 처리된 노트인지 확인(중복 판정 방지)
 
@@ -47,6 +47,7 @@ public class NoteObject : MonoBehaviour
     {
         _isHit = true;
         // TODO: GlobalDataManager 등에 Miss 신호를 보내 콤보를 끊어야 함
+        FindObjectOfType<JudgmentManager>().NotifyMiss(_lane);
         Debug.Log($"Miss: Lane {_lane}");
         DeactivateNote();
     }

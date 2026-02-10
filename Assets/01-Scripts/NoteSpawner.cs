@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class NoteSpawner : MonoBehaviour
@@ -16,6 +17,12 @@ public class NoteSpawner : MonoBehaviour
     private bool _isGameStarted = false;
     private List<NoteObject> _activeNotes = new List<NoteObject>(); //지금 움직이는 노트
 
+    private int _barIndex; //마디선 개수
+    private float _secPerMeasure = 0f; //1마디 길이
+    private List<BarLineObject> _activeBarLines = new List<BarLineObject>();
+
+    public float NoteSpeed => _noteSpeed;
+    public float SpawnY => _spawnY;
     public double StartTime => _startTime;
     public List<NoteObject> ActiveNotes => _activeNotes;
     public float[] LaneXPositions => _laneXPositions;
@@ -72,9 +79,8 @@ public class NoteSpawner : MonoBehaviour
         _noteIndex = 0;
         _activeNotes.Clear();
 
-        //2초 후 예약 재생
         _audioSource.clip = music; //음원 할당
-        float startDelay = 2.0f;
+        float startDelay = 2.0f; //2초 후 예약 재생
         _audioSource.PlayDelayed(startDelay);
 
         //게임 시작 전의 여유 시간
@@ -82,6 +88,13 @@ public class NoteSpawner : MonoBehaviour
         Debug.Log($"시작 시간 기록 완료: {_startTime}");
         _isGameStarted = true;
         Debug.Log($"[NoteSpawner] 게임 시작! 총 {chart.Notes.Count}개의 노트를 소환할 준비가 되었습니다.");
+
+        //1마디가 몇 초인지 계산(GlobalDataManager에서 데이터 가져옴)
+        var meta = GlobalDataManager.Instance.SelectedSong;
+        _secPerMeasure = (60f / meta.Bpm) * meta.Numerator;
+        _barIndex = 0;
+        _activeBarLines.Clear();
+        Debug.Log($"한 마디당 시간: {_secPerMeasure}");
     }
 
     private void Update()
@@ -92,7 +105,10 @@ public class NoteSpawner : MonoBehaviour
         float currentTime = (float)(AudioSettings.dspTime - _startTime);
         CheckSpawn(currentTime); //노트 소환
         UpdateActiveNotes(currentTime); //노트 이동
+        CheckBarLineSpawn(currentTime); //마디선 소환
+        UpdateActiveBarLines(currentTime); //마디선 이동
         _activeNotes.RemoveAll(note => !note.gameObject.activeSelf); //비활성화된 노트 제거
+        _activeBarLines.RemoveAll(bar => !bar.gameObject.activeSelf); //마디선 제거
         Debug.Log($"현재 시간: {currentTime}, 다음 소환 인덱스: {_noteIndex}");
     }
 
@@ -102,11 +118,6 @@ public class NoteSpawner : MonoBehaviour
         // [수정] 소환 예비 시간 계산 시 판정선 높이(_judgmentY)를 고려해야 합니다.
         float spawnDistance = _spawnY - _judgmentY;
         float spawnLookAhead = spawnDistance / _noteSpeed;
-
-        if (_currentChart.Notes.Count > 0)
-        {
-            Debug.Log($"[Check] 현재시간: {currentTime}, 첫노트시간: {_currentChart.Notes[0].TargetTime}, 소환기준: {_currentChart.Notes[0].TargetTime - spawnLookAhead}");
-        }
 
         //while: 동시에 여러 노트 소환할 가능성 고려
         while (_noteIndex < _currentChart.Notes.Count)
@@ -122,6 +133,21 @@ public class NoteSpawner : MonoBehaviour
             else break; //SongDataLoader가 이미 노트를 시간 순으로 정렬함
         }
     }
+
+    void CheckBarLineSpawn(float currentTime)
+    {
+        //노트와 동일한 공식으로 소환 시간 계산
+        float spawnDistance = _spawnY - _judgmentY;
+        float spawnLookAhead = spawnDistance / _noteSpeed;
+
+        float nextBarTime = _barIndex * _secPerMeasure;
+        //소환 기준: (다음 마디선 시간 - 예비 2초) < 현재 시간
+        if(nextBarTime - spawnLookAhead <= currentTime)
+        {
+            SpawnBarLine(nextBarTime);
+            _barIndex++;
+        }
+    }    
 
     void SpawnNote(NoteData data)
     {
@@ -142,12 +168,32 @@ public class NoteSpawner : MonoBehaviour
         }
     }
 
+    void SpawnBarLine(float targetTime)
+    {
+        Debug.Log($"{_barIndex}번 마디선 소환 시도!");
+        BarLineObject bar = NotePoolManager.Instance.GetBarLine();
+
+        if(bar != null)
+        {
+            bar.InitializeBarLine(targetTime, _judgmentY, _spawnY);
+            _activeBarLines.Add(bar);
+        }
+    }
+
     void UpdateActiveNotes(float currentTime)
     {
         //화면 상의 모든 노트를 이동
         foreach (var note in _activeNotes)
         {
             note.UpdateNotes(currentTime, _noteSpeed);
+        }
+    }
+
+    void UpdateActiveBarLines(float currentTime)
+    {
+        foreach(var bar in _activeBarLines)
+        {
+            bar.UpdateBarLine(currentTime, _noteSpeed);
         }
     }
 

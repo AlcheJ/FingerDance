@@ -16,7 +16,7 @@ public class NoteData
     [SerializeField] private int bar;
     [SerializeField] private int tick;
     [SerializeField] private int lane;
-    [SerializeField] private NoteType type;
+    [SerializeField] private string noteType;
     [SerializeField] private int durationTick;
 
     public float TargetTime { get; set; } //판정선에 닿기 시작하는 시간
@@ -26,6 +26,14 @@ public class NoteData
     public int Bar => bar;
     public int Tick => tick;
     public int Lane => lane;
-    public NoteType Type => type;
     public int DurationTick => durationTick;
+
+    public NoteType Type
+    {
+        get
+        {
+            if (noteType == "Long") return NoteType.Long;
+            return NoteType.Short;
+        }
+    }
 }

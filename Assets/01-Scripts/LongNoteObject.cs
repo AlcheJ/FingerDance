@@ -18,6 +18,10 @@ public class LongNoteObject : NoteObject
         _duration = data.DurationTime; //계산된 롱노트 유지 시간 대입
         _endTime = data.TargetTime + _duration;
         _isHolding = false;
+
+        //현재 배속에 맞춰 롱노트의 기둥 길이 설정
+        float currentSpeed = FindObjectOfType<NoteSpawner>().NoteSpeed;
+        UpdatePillarVisual(currentSpeed);
     }
 
     public override void UpdateNotes(float currentTime, float noteSpeed)
@@ -35,7 +39,7 @@ public class LongNoteObject : NoteObject
         else
         {
             //머리는 판정선에 고정
-            transform.localPosition = new Vector3(transform.localPosition.x, 0, 0f);
+            transform.localPosition = new Vector3(transform.localPosition.x, _currentJudgmentY, 0f);
             //꼬리가 판정선에 도달할 때까지 기둥 길이 감소
             float remainingDistance = (_endTime - currentTime) * noteSpeed;
 

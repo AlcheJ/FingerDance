@@ -21,22 +21,35 @@ public class JudgmentManager : MonoBehaviour
     private const float WindowMiss = 0.150f;
 
     [SerializeField] private NoteSpawner _noteSpawner; //활성 노트 리스트 가져오는 용도
+    [SerializeField] private InputFeedbackManager _feedbackManager;
     //판정이 날 때마다 판정 종류와 레인 번호를 전송
     public event Action<JudgType, int> OnJudged;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) ProcessInput(0);
-        if (Input.GetKeyDown(KeyCode.R)) ProcessInput(1);
-        if (Input.GetKeyDown(KeyCode.O)) ProcessInput(2);
-        if (Input.GetKeyDown(KeyCode.P)) ProcessInput(3);
+        if (Input.GetKeyDown(KeyCode.E)) { StartLaneInput(0); }
+        if (Input.GetKeyDown(KeyCode.R)) { StartLaneInput(1); }
+        if (Input.GetKeyDown(KeyCode.O)) { StartLaneInput(2); }
+        if (Input.GetKeyDown(KeyCode.P)) { StartLaneInput(3); }
+
+        if (Input.GetKeyUp(KeyCode.E)) _feedbackManager.StopFeedback(0);
+        if (Input.GetKeyUp(KeyCode.R)) _feedbackManager.StopFeedback(1);
+        if (Input.GetKeyUp(KeyCode.O)) _feedbackManager.StopFeedback(2);
+        if (Input.GetKeyUp(KeyCode.P)) _feedbackManager.StopFeedback(3);
+    }
+
+    private void StartLaneInput(int laneIndex)
+    {
+        _feedbackManager.StartFeedback(laneIndex); //빛 효과, 키음
+        ProcessInput(laneIndex);
     }
 
     //레인에 들어온 입력에 판정을 내림
     void ProcessInput(int laneIndex)
     {
-        //이 레인에서 가장 오래된(최하단) 노트 탐색
+        //이 레인에서 가장 오래된(최하단) 노트 탐색, 효과 활성화
         NoteObject targetNote = Find1stNoteInLane(laneIndex);
+        _feedbackManager.StartFeedback(laneIndex);
 
         if (targetNote == null) return;
 
@@ -81,5 +94,10 @@ public class JudgmentManager : MonoBehaviour
 
         OnJudged?.Invoke(type, lane);
         Debug.Log($"[Judge] Lane {lane}: {type} (오차: {(AudioSettings.dspTime - _noteSpawner.StartTime - note.TargetTime) * 1000:F2}ms)");
+    }
+
+    public void NotifyMiss(int laneIndex)
+    {
+        OnJudged?.Invoke(JudgType.Miss, laneIndex);
     }
 }

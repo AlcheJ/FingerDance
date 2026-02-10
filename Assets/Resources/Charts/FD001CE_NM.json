@@ -4,13 +4,15 @@
             "bar": 0,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Long",
+            "durationTick": 1920
         },
         {
-            "bar": 2,
-            "tick": 480,
+            "bar": 0,
+            "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Long",
+            "durationTick": 1920
         }
     ]
 }
