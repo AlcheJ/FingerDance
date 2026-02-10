@@ -4,40 +4,84 @@ using UnityEngine;
 
 public class NoteSpawner : MonoBehaviour
 {
-    /// [summary] 
-    /// 1. 시간 동기화
-    /// AudioSettings.dspTime을 기반으로 음악의 절대 시작 시간 기록,
-    /// 매 프레임마다 (현재 시간 - 시작 시간) 계산
-    /// 2. 노트 활성화
-    /// _currentNoteIndex: 0번 노트부터 순서대로 소환하고 인덱스 1 증가
-    /// 노트 소환 시점 = TargetTime - 미리보기 시간(배속 영향 있음)
-    /// 3. 레인 배치
-    /// NoteData의 Lane 정보를 보고 x 좌표값을 노트에 부여
-    /// [/summary]
-    
     [SerializeField] private float _noteSpeed; //노트 속도
     [SerializeField] private float _spawnY; //노트가 소환될 Y좌표
     [SerializeField] private float[] _laneXPositions; //각 레인의 X좌표
+    [SerializeField] private float _judgmentY = -2.7f;
+    [SerializeField] private AudioSource _audioSource;
 
     private SongChartData _currentChart;
     private int _noteIndex = 0; //지금 몇 번째 노트임?
     private double _startTime;
     private bool _isGameStarted = false;
-    public List<NoteObject> _activeNotes; //지금 움직이는 노트
+    private List<NoteObject> _activeNotes = new List<NoteObject>(); //지금 움직이는 노트
 
     public double StartTime => _startTime;
     public List<NoteObject> ActiveNotes => _activeNotes;
+    public float[] LaneXPositions => _laneXPositions;
 
-    public void StartGame(SongChartData chart)
+    // --- 기즈모 구현 (Scene 뷰 시각화) ---
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
     {
+        if (_laneXPositions == null || _laneXPositions.Length == 0) return;
+
+        // 1. 판정선 시각화 (초록색)
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(new Vector3(-10, _judgmentY, 0), new Vector3(10, _judgmentY, 0));
+
+        // 2. 각 레인 판정 포인트 및 소환 포인트
+        for (int i = 0; i < _laneXPositions.Length; i++)
+        {
+            // 판정 지점 (하늘색 원)
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(new Vector3(_laneXPositions[i], _judgmentY, 0), 0.3f);
+
+            // 소환 지점 (빨간색 선)
+            Gizmos.color = Color.red;
+            Vector3 sPos = new Vector3(_laneXPositions[i], _spawnY, 0);
+            Gizmos.DrawLine(sPos + Vector3.left * 0.5f, sPos + Vector3.right * 0.5f);
+        }
+    }
+#endif
+
+    public void StartGame(SongChartData chart, AudioClip music)
+    {
+        if (chart == null)
+        {
+            Debug.LogError("[NoteSpawner] 채보 데이터가 null입니다!");
+            return;
+        }
+        if (music == null)
+        {
+            Debug.LogError("[NoteSpawner] 전달받은 AudioClip이 null입니다!");
+            return;
+        }
+        if (_audioSource == null)
+        {
+            Debug.LogError("[NoteSpawner] AudioSource가 인스펙터에서 연결되지 않았습니다!");
+            return;
+        }
+        if (chart == null || chart.Notes == null || chart.Notes.Count == 0)
+        {
+            Debug.LogError("[NoteSpawner] 비상! 로드된 채보에 노트가 단 하나도 없습니다!");
+            return;
+        }
+
         _currentChart = chart;
         _noteIndex = 0;
         _activeNotes.Clear();
 
+        //2초 후 예약 재생
+        _audioSource.clip = music; //음원 할당
+        float startDelay = 2.0f;
+        _audioSource.PlayDelayed(startDelay);
+
         //게임 시작 전의 여유 시간
-        _startTime = AudioSettings.dspTime + 3.0f;
+        _startTime = AudioSettings.dspTime + (double)startDelay;
+        Debug.Log($"시작 시간 기록 완료: {_startTime}");
         _isGameStarted = true;
-        Debug.Log("[Spawner] 게임 시작: 3초 후 음악 재생");
+        Debug.Log($"[NoteSpawner] 게임 시작! 총 {chart.Notes.Count}개의 노트를 소환할 준비가 되었습니다.");
     }
 
     private void Update()
@@ -49,18 +93,28 @@ public class NoteSpawner : MonoBehaviour
         CheckSpawn(currentTime); //노트 소환
         UpdateActiveNotes(currentTime); //노트 이동
         _activeNotes.RemoveAll(note => !note.gameObject.activeSelf); //비활성화된 노트 제거
+        Debug.Log($"현재 시간: {currentTime}, 다음 소환 인덱스: {_noteIndex}");
     }
 
     void CheckSpawn(float currentTime)
     {
         //소환 시간 계산: (소환 지점 / 속도)만큼 미리 소환
-        float spawnTime = _spawnY / _noteSpeed;
+        // [수정] 소환 예비 시간 계산 시 판정선 높이(_judgmentY)를 고려해야 합니다.
+        float spawnDistance = _spawnY - _judgmentY;
+        float spawnLookAhead = spawnDistance / _noteSpeed;
+
+        if (_currentChart.Notes.Count > 0)
+        {
+            Debug.Log($"[Check] 현재시간: {currentTime}, 첫노트시간: {_currentChart.Notes[0].TargetTime}, 소환기준: {_currentChart.Notes[0].TargetTime - spawnLookAhead}");
+        }
+
         //while: 동시에 여러 노트 소환할 가능성 고려
         while (_noteIndex < _currentChart.Notes.Count)
         {
             NoteData data = _currentChart.Notes[_noteIndex];
+            Debug.Log($"[Spawn] {_noteIndex}번 노트 소환! Target:{data.TargetTime}s, Lane:{data.Lane}");
 
-            if (data.TargetTime - spawnTime <= currentTime)
+            if (data.TargetTime - spawnLookAhead <= currentTime)
             {
                 SpawnNote(data);
                 _noteIndex++;
@@ -76,10 +130,10 @@ public class NoteSpawner : MonoBehaviour
         if (data.Type == NoteType.Short) note = NotePoolManager.Instance.GetShortNote();
         else if (data.Type == NoteType.Long) note = NotePoolManager.Instance.GetLongNote();
 
-        if(note != null)
+        if (note != null)
         {
             //데이터 초기화 + 위치 설정
-            note.InitializeNotes(data);
+            note.InitializeNotes(data, _judgmentY);
             //(x,y) = (레인배열, 소환지점)
             float x = _laneXPositions[data.Lane];
             note.transform.localPosition = new Vector3(x, _spawnY, 0);
@@ -91,7 +145,7 @@ public class NoteSpawner : MonoBehaviour
     void UpdateActiveNotes(float currentTime)
     {
         //화면 상의 모든 노트를 이동
-        foreach(var note in _activeNotes)
+        foreach (var note in _activeNotes)
         {
             note.UpdateNotes(currentTime, _noteSpeed);
         }

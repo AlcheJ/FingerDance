@@ -30,6 +30,11 @@ public class SongDataLoader : MonoBehaviour
     public void InitializeChartTimes(SongMetaData meta, SongChartData chart)
     {
         if (chart == null || chart.Notes == null) return;
+        if(meta.Resolution <= 0)
+        {
+            Debug.LogError($"[DataLoader] {meta.SongTitle}의 Resolution이 0입니다! JSON 파일을 확인하세요.");
+            return;
+        }
 
         float secondsPerBeat = 60f / meta.Bpm;
         float secondsPerTick = secondsPerBeat / meta.Resolution;

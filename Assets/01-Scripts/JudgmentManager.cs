@@ -62,7 +62,7 @@ public class JudgmentManager : MonoBehaviour
     {
         if (_noteSpawner.ActiveNotes == null) return null;
 
-        foreach (var note in _noteSpawner._activeNotes)
+        foreach (var note in _noteSpawner.ActiveNotes)
         {
             //해당 레인의 아직 처리 안 된 1번째 노트 반환
             if (!note.IsHit && note.Lane == laneIndex) return note;

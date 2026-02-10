@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class SongSelectController : MonoBehaviour
@@ -29,7 +30,7 @@ public class SongSelectController : MonoBehaviour
 
     private void Awake()
     {
-        if(_audioSource != null)
+        if (_audioSource != null)
         {
             _baseVolume = _audioSource.volume; //초기 설정된 볼륨 저장
         }
@@ -83,7 +84,7 @@ public class SongSelectController : MonoBehaviour
 
     void UpdateSelection() //현재 인덱스(0번)에 시각적 강조 추가
     {
-        for(int i = 0; i < _entryList.Count; i++)
+        for (int i = 0; i < _entryList.Count; i++)
         {
             //현재 인덱스와 일치하면 true 전송
             _entryList[i].SetHighlight(i == _currentSongIndex);
@@ -93,6 +94,7 @@ public class SongSelectController : MonoBehaviour
         SongMetaData currentSong = _allSongs[_currentSongIndex];
         SavingData currentRecord = SaveManager.Instance.GetRecord(currentSong.SongID);
         _infoView.ShowInfo(currentSong, currentRecord);
+        _infoView.HighlightDifficulty(_currentDifficultyIndex); //기본값 0(NM)
     }
 
     //키보드 입력에 따라 인덱스 변경
@@ -115,7 +117,7 @@ public class SongSelectController : MonoBehaviour
             _currentSongIndex = (_currentSongIndex + 1) % _entryList.Count;
         }
 
-        if(prevIndex != _currentSongIndex)
+        if (prevIndex != _currentSongIndex)
         {
             UpdateSelection();
             PlayPreview();
@@ -123,7 +125,7 @@ public class SongSelectController : MonoBehaviour
         }
 
         // 좌우 키 난이도 로직
-        if(Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             _currentDifficultyIndex = (_currentDifficultyIndex - 1 + 2) % 2;
         }
@@ -131,9 +133,14 @@ public class SongSelectController : MonoBehaviour
         {
             _currentDifficultyIndex = (_currentDifficultyIndex + 1) % 2;
         }
-        if(prevDiff != _currentDifficultyIndex)
+        if (prevDiff != _currentDifficultyIndex)
         {
             _infoView.HighlightDifficulty(_currentDifficultyIndex);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            StartGame();
         }
     }
 
@@ -142,14 +149,14 @@ public class SongSelectController : MonoBehaviour
         yield return new WaitForSeconds(PreviewDelay);
 
         AudioClip clip = Resources.Load<AudioClip>($"Sounds/{targetSong.AudioFileName}");
-        if(clip == null)
+        if (clip == null)
         {
             Debug.LogWarning($"[Preview] 음원을 찾을 수 없습니다: {targetSong.AudioFileName}");
             yield break;
         }
         _audioSource.clip = clip;
 
-        while(true)
+        while (true)
         {
             _audioSource.Play();
             _audioSource.time = targetSong.PreviewStartTime;
@@ -161,7 +168,7 @@ public class SongSelectController : MonoBehaviour
             while (AudioSettings.dspTime < startTime + LoopDuration)
             {
                 double elapsedTime = AudioSettings.dspTime - startTime;
-                if(elapsedTime >= LoopDuration - FadeDuration)
+                if (elapsedTime >= LoopDuration - FadeDuration)
                 {
                     float t = (float)(elapsedTime - (LoopDuration - FadeDuration)) / FadeDuration;
                     _audioSource.volume = Mathf.Lerp(_baseVolume, 0f, t);
@@ -180,5 +187,21 @@ public class SongSelectController : MonoBehaviour
 
         SongMetaData selectedSong = _allSongs[_currentSongIndex];
         _previewCoroutine = StartCoroutine(PlayPreviewCo(selectedSong));
+    }
+
+    void StartGame()
+    {
+        SetInputLock(true); //중복실행 방지
+
+        //곡명과 난이도 데이터 전달
+        SongMetaData selectedSong = _allSongs[_currentSongIndex];
+        GlobalDataManager.Instance.PrepareGamePlay(selectedSong, _currentDifficultyIndex);
+
+        //오디오 및 코루틴 정리
+        if (_previewCoroutine != null) StopCoroutine(_previewCoroutine);
+        _audioSource.Stop();
+        _audioSource.clip = null;
+
+        SceneManager.LoadScene("2-GamePlay");
     }
 }

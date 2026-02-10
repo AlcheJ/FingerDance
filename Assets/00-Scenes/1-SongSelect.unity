@@ -495,8 +495,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 57580630}
   m_HandleRect: {fileID: 57580628}
   m_Direction: 0
-  m_Value: -0.00048828125
-  m_Size: 0.9987864
+  m_Value: 0
+  m_Size: 0.9769441
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2414,7 +2414,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 460460331}
-  - {fileID: 2100245997}
   - {fileID: 1815957603}
   - {fileID: 440922986}
   - {fileID: 1553045799}
@@ -3403,7 +3402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.50045776, y: 491.5}
+  m_AnchoredPosition: {x: 0.49996948, y: 491.5}
   m_SizeDelta: {x: 824, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1206595234
@@ -7805,7 +7804,7 @@ GameObject:
   - component: {fileID: 2100245998}
   - component: {fileID: 2100245999}
   m_Layer: 0
-  m_Name: GlobalDataManager&SongDataLoader
+  m_Name: GlobalDataManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7819,12 +7818,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100245996}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 927589361}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2100245998
 MonoBehaviour:
@@ -8076,6 +8075,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 927589361}
+  - {fileID: 2100245997}
   - {fileID: 1892654530}
   - {fileID: 1917220672}
-  - {fileID: 927589361}

@@ -8,6 +8,7 @@ public class NoteObject : MonoBehaviour
     [SerializeField] protected SpriteRenderer _sr;
 
     private float _targetTime; //판정선에 도달해야 할 절대 시간
+    private float _currentJudgmentY; // 스포너로부터 전달받을 판정선 높이
     private int _lane;
     private bool _isHit = false; //이미 처리된 노트인지 확인(중복 판정 방지)
 
@@ -19,12 +20,14 @@ public class NoteObject : MonoBehaviour
         protected set => _isHit = value;
     }
 
-    public virtual void InitializeNotes(NoteData data)
+    public virtual void InitializeNotes(NoteData data, float judgmentY)
     {
         _targetTime = data.TargetTime;
         _lane = data.Lane;
+        _currentJudgmentY = judgmentY;
         _isHit = false;
         if (_sr != null) _sr.enabled = true; //시각적 초기화
+        gameObject.SetActive(true);
     }
 
     //노트 위치 갱신(NoteManager가 매 프레임 호출)
@@ -34,7 +37,7 @@ public class NoteObject : MonoBehaviour
 
         float distance = (_targetTime - currentTime) * noteSpeed;
         //Y축 위치 강제지정
-        transform.localPosition = new Vector3(transform.localPosition.x, distance, 0f);
+        transform.localPosition = new Vector3(transform.localPosition.x, distance + _currentJudgmentY, 0f);
         if (currentTime > _targetTime + 0.2f)
         {
             HandleMiss();
@@ -57,4 +60,5 @@ public class NoteObject : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
 }

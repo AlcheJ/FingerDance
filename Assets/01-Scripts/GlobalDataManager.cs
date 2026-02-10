@@ -10,11 +10,14 @@ public class GlobalDataManager : MonoBehaviour
     private List<SongMetaData> _allSongs = new List<SongMetaData>();
     private SongMetaData _selectedSong;
     private SongDataLoader _dataLoader; // 다른 매니저 참조용 변수
+    private SongChartData _currentChart;
     private int _selectedDifficultyIndex; // 0: Easy, 1: Hard 등
     private int _currentSelectIndex;      // 선곡 씬 리스트 위치
 
     public List<SongMetaData> AllSongs => _allSongs;
     public SongMetaData SelectedSong => _selectedSong;
+    public SongChartData CurrentChart => _currentChart;
+    public int SelectedDifficultyIndex => _selectedDifficultyIndex;
 
     // 플레이 결과 데이터 (클래스/구조체 만들어야 함)
     private PlayResult _lastPlayResult;
@@ -38,10 +41,12 @@ public class GlobalDataManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(gameObject);
             _dataLoader = GetComponent<SongDataLoader>();
+            Debug.Log($"[GlobalDataManager] 내가 살아남았습니다! 오브젝트 이름: {gameObject.name}");
             Initialize(); // 데이터 초기화 실행
         }
         else
         {
+            Debug.LogWarning($"[GlobalDataManager] 중복된 매니저 발견되어 파괴됨: {gameObject.name}");
             Destroy(gameObject);
         }
     }
@@ -89,13 +94,19 @@ public class GlobalDataManager : MonoBehaviour
     {
         _selectedSong = song;
         _selectedDifficultyIndex = difficulty;
-        // 이후 SceneManager.LoadScene("LoadingScene") 호출
+        // 이후 SceneManager.LoadScene("2-GamePlay") 호출
     }
 
-    // 게임 종료 후 결과를 기록합니다.
+    // 게임 종료 후 결과를 기록
     public void UpdateResult(PlayResult result)
     {
         _lastPlayResult = result;
         // TODO: 최고 기록 갱신 로직 및 SaveManager 연동
+    }
+
+    //로딩 완료된 채보 데이터 저장
+    public void SetCurrentChart(SongChartData chart)
+    {
+        _currentChart = chart;
     }
 }

@@ -11,9 +11,9 @@ public class LongNoteObject : NoteObject
     private float _endTime;
     private bool _isHolding = false;
     public bool IsHolding => _isHolding;
-    public override void InitializeNotes(NoteData data)
+    public override void InitializeNotes(NoteData data, float judgmentY) // 1. 인자 추가
     {
-        base.InitializeNotes(data); //부모 초기화
+        base.InitializeNotes(data, judgmentY); //부모 초기화
 
         _duration = data.DurationTime; //계산된 롱노트 유지 시간 대입
         _endTime = data.TargetTime + _duration;

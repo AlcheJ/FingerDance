@@ -8,43 +8,43 @@
         },
         {
             "bar": 0,
-            "tick": 240,
+            "tick": 120,
             "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 480,
+            "tick": 240,
             "lane": 3,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 720,
+            "tick": 360,
             "lane": 0,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 960,
+            "tick": 480,
             "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 1200,
+            "tick": 600,
             "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 1440,
+            "tick": 720,
             "lane": 3,
             "noteType": "Short"
         },
         {
             "bar": 0,
-            "tick": 1680,
+            "tick": 840,
             "lane": 0,
             "noteType": "Short"
         }
