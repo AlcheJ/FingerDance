@@ -7,4 +7,7 @@ public class SongChartData
 {
     [SerializeField] private List<NoteData> notes;
     public List<NoteData> Notes => notes;
+    
+    //각 마디의 시작 시간을 저장한 리스트
+    public List<float> BarLineTimes { get; set; } = new List<float>();
 }

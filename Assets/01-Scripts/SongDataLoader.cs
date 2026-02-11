@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
 
 public class SongDataLoader : MonoBehaviour
@@ -22,7 +23,7 @@ public class SongDataLoader : MonoBehaviour
     {
         // 곡 정보 역직렬화(선곡씬): 텍스트 -> 객체
         SongMetaData metadata = JsonUtility.FromJson<SongMetaData>(jsonText);
-        if(metadata == null) return null;
+        if (metadata == null) return null;
         return metadata;
     }
 
@@ -30,31 +31,56 @@ public class SongDataLoader : MonoBehaviour
     public void InitializeChartTimes(SongMetaData meta, SongChartData chart)
     {
         if (chart == null || chart.Notes == null) return;
-        if(meta.Resolution <= 0)
-        {
-            Debug.LogError($"[DataLoader] {meta.SongTitle}의 Resolution이 0입니다! JSON 파일을 확인하세요.");
-            return;
-        }
+        if (meta.Resolution <= 0) return;
 
         float secondsPerBeat = 60f / meta.Bpm;
         float secondsPerTick = secondsPerBeat / meta.Resolution;
-        int ticksPerMeasure = meta.Numerator * meta.Resolution;
 
-        foreach(NoteData note in chart.Notes)
+        //각 마디가 시작되는 틱을 담을 딕셔너리
+        Dictionary<int, long> barStartTickMap = new Dictionary<int, long>();
+
+        //채보의 마지막 마디를 찾음(여유 8개)
+        int maxBar = 0;
+        foreach (var note in chart.Notes) if (note.Bar > maxBar) maxBar = note.Bar;
+        maxBar += 8;
+
+        long currentCumulativeTick = 0; //Cumulative: 누적되는
+        int currentNumerator = meta.Numerator;
+
+        for (int i = 0; i <= maxBar; i++)
         {
-            Debug.Log($"[DataLoader] 마디:{note.Bar}, 틱:{note.Tick}, 타입:{note.Type}");
-            //해당 마디까지 흐른 총 틱수
-            //(총 틱수)*(틱당 시간) = 절대 시간(targetTime = 판정선에 도달하는 시간)
-            long totalTicks = (long)note.Bar * ticksPerMeasure + note.Tick;
-            note.TargetTime = totalTicks * secondsPerTick;
-            //롱노트 지속시간 계산
-            if(note.Type == NoteType.Long)
+            //현재 마디(i)에서 변박 여부 확인
+            var sigEvent = meta.TimeSignatures.Find(s => s.Bar == i);
+            if (sigEvent != null) //변박 있으면 변경된 박자 적용
             {
-                note.DurationTime = note.DurationTick * secondsPerTick;
-                Debug.Log($"[LongNote Data] {meta.SongTitle} - Duration: {note.DurationTime}s");
+                currentNumerator = sigEvent.Numerator;
+            }
+
+            //i번째 마디의 시작 지점: 누적된 currentCumulativeTick
+            //틱 정보를 리스트화
+            barStartTickMap[i] = currentCumulativeTick;
+            chart.BarLineTimes.Add(currentCumulativeTick * secondsPerTick);
+
+            //틱 누적
+            currentCumulativeTick += (long)currentNumerator * meta.Resolution;
+        }
+
+        foreach (NoteData note in chart.Notes)
+        {
+            if (barStartTickMap.TryGetValue(note.Bar, out long barStartTick))
+            {
+                //해당 마디까지 흐른 총 틱수(딕셔너리에서 시작 틱 지점 확인)
+                long totalTicks = barStartTick + note.Tick;
+                note.TargetTime = totalTicks * secondsPerTick;
+                //롱노트 지속시간 계산
+                if (note.Type == NoteType.Long)
+                {
+                    note.DurationTime = note.DurationTick * secondsPerTick;
+                    Debug.Log($"[LongNote Data] {meta.SongTitle} - Duration: {note.DurationTime}s");
+                }
             }
         }
         //노트 데이터를 시간순 정렬
-        chart.Notes.Sort((a,b) => a.TargetTime.CompareTo(b.TargetTime));
+        chart.Notes.Sort((a, b) => a.TargetTime.CompareTo(b.TargetTime));
     }
 }

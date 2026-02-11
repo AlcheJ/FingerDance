@@ -372,28 +372,4855 @@
         {
             "bar": 4,
             "tick": 480,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 4,
             "tick": 600,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 4,
             "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 840,
             "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 4,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 4,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 4,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 4,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 4,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 4,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 4,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 5,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 5,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 5,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 6,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 6,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 6,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 7,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 7,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 7,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 8,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 8,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 8,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 9,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 9,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1500,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1620,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 9,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 10,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 240,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 10,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 10,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 11,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 11,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1440,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1500,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1620,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 11,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 12,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 12,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 12,
+            "tick": 240,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 12,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 12,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 12,
             "tick": 720,
             "lane": 2,
             "noteType": "Long",
             "durationTick": 120
+        },
+        {
+            "bar": 12,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 12,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 13,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 13,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 13,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 14,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1020,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1140,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 14,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 15,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1380,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 15,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 15,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+
+        {
+            "bar": 16,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 16,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 17,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 17,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 18,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 240,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 18,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 19,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1500,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1740,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 19,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 20,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 240,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 20,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1440,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 20,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 21,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 21,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1440,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 21,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 22,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 22,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 23,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1500,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1740,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 23,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 24,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 180,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 24,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1140,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 24,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 25,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 180,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 25,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1620,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 25,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 26,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 180,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 26,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1140,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 26,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 27,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 180,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 27,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1500,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1740,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 27,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 28,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1160,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 28,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 29,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1140,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 29,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 30,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1020,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1140,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 30,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 31,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1160,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 31,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 32,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 32,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 32,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 33,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 1140,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 33,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 33,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 34,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 34,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 35,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 1140,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 35,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1620,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 35,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 36,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 36,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 36,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 37,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 1140,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 37,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 37,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 38,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 38,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 39,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 39,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+
+        {
+            "bar": 40,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 40,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 41,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 41,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 42,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 660,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1140,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1620,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 43,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 660,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1620,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 43,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 44,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 120,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 44,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 45,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 660,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1440,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 45,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 46,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1560,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 46,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 47,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 47,
+            "tick": 1800,
+            "lane": 3,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 48,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 49,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1680,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 50,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
         }
     ]
 }

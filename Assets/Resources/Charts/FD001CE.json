@@ -19,5 +19,19 @@
             "level": 4,
             "chartFileName": "FD001CE_HD"
         }
+    ],
+    "timeSignatures": [
+        {
+            "bar": 0,
+            "numerator": 4
+        },
+        {
+            "bar": 48,
+            "numerator": 2
+        },
+        {
+            "bar": 49,
+            "numerator": 4
+        }
     ]
 }

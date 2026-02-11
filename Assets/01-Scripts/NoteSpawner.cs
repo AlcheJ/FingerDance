@@ -136,13 +136,16 @@ public class NoteSpawner : MonoBehaviour
 
     void CheckBarLineSpawn(float currentTime)
     {
+        if (_currentChart.BarLineTimes == null || _barIndex >= _currentChart.BarLineTimes.Count) return;
         //노트와 동일한 공식으로 소환 시간 계산
         float spawnDistance = _spawnY - _judgmentY;
         float spawnLookAhead = spawnDistance / _noteSpeed;
 
-        float nextBarTime = _barIndex * _secPerMeasure;
+        // float nextBarTime = _barIndex * _secPerMeasure;
+        // [중요] _secPerMeasure를 계산해서 쓰는 대신, 리스트에 담긴 '진짜 시간'을 가져옵니다.
+        float nextBarTime = _currentChart.BarLineTimes[_barIndex];
         //소환 기준: (다음 마디선 시간 - 예비 2초) < 현재 시간
-        if(nextBarTime - spawnLookAhead <= currentTime)
+        if (nextBarTime - spawnLookAhead <= currentTime)
         {
             SpawnBarLine(nextBarTime);
             _barIndex++;

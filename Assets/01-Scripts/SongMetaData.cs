@@ -17,6 +17,15 @@ public class DifficultyInfo //난이도별 json 파일을 받아옴
 }
 
 [Serializable]
+public class TimeSignatureEvent //변박에 대응하는 기능
+{
+    [SerializeField] private int bar; //몇 번째 마디부터
+    [SerializeField] private int numerator; //분자
+    public int Bar => bar;
+    public int Numerator => numerator;
+}
+
+[Serializable]
 public class SongMetaData
 {
     [SerializeField] private string songID;
@@ -29,6 +38,7 @@ public class SongMetaData
     [SerializeField] private string audioFileName;
     [SerializeField] private string jacketImage;
     [SerializeField] private List<DifficultyInfo> difficulty;
+    [SerializeField] private List<TimeSignatureEvent> timeSignatures;
 
     //이하의 프로퍼티는 외부에서 접근해야 하므로 필요
     public string SongID => songID;
@@ -41,4 +51,5 @@ public class SongMetaData
     public string AudioFileName => audioFileName;
     public string JacketImage => jacketImage;
     public List<DifficultyInfo> DifficultyList => difficulty;
+    public List<TimeSignatureEvent> TimeSignatures => timeSignatures;
 }
