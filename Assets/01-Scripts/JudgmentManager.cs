@@ -99,10 +99,9 @@ public class JudgmentManager : MonoBehaviour
             note.HandleMiss();
             //여기에 콤보 초기화 등의 호출을 넣을 것
         }
-        else note.OnHit(); //노트 처리되어 사라짐
+        else note.OnHit(type); //노트 처리되어 사라짐
 
         OnJudged?.Invoke(type, lane);
-        Debug.Log($"[Judge] Lane {lane}: {type} (오차: {(AudioSettings.dspTime - _noteSpawner.StartTime - note.TargetTime) * 1000:F2}ms)");
     }
 
     public void NotifyMiss(int laneIndex)

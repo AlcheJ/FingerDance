@@ -52,7 +52,7 @@ public class NoteObject : MonoBehaviour
         DeactivateNote();
     }
 
-    public virtual void OnHit()
+    public virtual void OnHit(JudgType type)
     {
         _isHit = true;
         DeactivateNote();

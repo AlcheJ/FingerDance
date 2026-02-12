@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
 
     public int CurrentScore => (int)Math.Round(_currentScore);
     public int CurrentCombo => _currentCombo;
-    public float CurrentAccuracy => _processedUnits == 0 ? 0 : (float)((_totalWeightEarned / _processedUnits) * 100.0);
+    public float CurrentAccuracy => _processedUnits == 0 ? 100f : (float)((_totalWeightEarned / _processedUnits) * 100.0);
 
     //ΩÃ±€≈Ê
     private static ScoreManager _instance;
