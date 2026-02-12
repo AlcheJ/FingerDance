@@ -10,7 +10,6 @@ public class JudgmentEffectManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _comboText;
     [SerializeField] private JudgmentManager _judgManager;
 
-    private int _currentCombo = 0;
     private Coroutine _fadeCoroutine;
 
     void Start()
@@ -25,13 +24,11 @@ public class JudgmentEffectManager : MonoBehaviour
     {
         if(type == JudgType.Miss)
         {
-            _currentCombo = 0;
             _comboText.text = "";
         }
         else
         {
-            _currentCombo++;
-            _comboText.text = _currentCombo.ToString();
+            _comboText.text = ScoreManager.Instance.CurrentCombo.ToString();
         }
 
         _judgmentText.gameObject.SetActive(true);

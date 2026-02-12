@@ -29,6 +29,7 @@ public class ScoreManager : MonoBehaviour
     private int _missCount;
 
     public int CurrentScore => (int)Math.Round(_currentScore);
+    public int CurrentCombo => _currentCombo;
     public float CurrentAccuracy => _processedUnits == 0 ? 0 : (float)((_totalWeightEarned / _processedUnits) * 100.0);
 
     //싱글톤
@@ -73,6 +74,8 @@ public class ScoreManager : MonoBehaviour
     //노트 머리 판정 시 호출
     public void AddScore(JudgType type)
     {
+        if (type == JudgType.None) return;
+
         _processedUnits++;
 
         if (type == JudgType.Perfect) _perfectCount++;
@@ -92,12 +95,11 @@ public class ScoreManager : MonoBehaviour
     public void AddTickScore(JudgType initialType)
     {
         _processedUnits++;
+        _totalWeightEarned += GetWeight(initialType);
 
         if (initialType == JudgType.Perfect) _perfectCount++;
         else if (initialType == JudgType.Good) _goodCount++;
         else if (initialType == JudgType.OK) _okCount++;
-
-        _totalWeightEarned += GetWeight(initialType);
 
         AddCombo();
         CalculateCurrentScore();

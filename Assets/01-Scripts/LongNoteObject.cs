@@ -18,12 +18,14 @@ public class LongNoteObject : NoteObject
     {
         base.InitializeNotes(data, judgmentY); //부모 초기화
 
-        if (data.DurationTick > 0)
+        _duration = data.DurationTime; //계산된 롱노트 유지 시간 대입
+        _endTime = data.TargetTime + _duration;
+        _isHolding = false;
+        if (data.DurationTick > 0) //60틱 단위로 판정
         {
             _tickIntervalTime = (data.DurationTime / data.DurationTick) * 60f;
         }
-        _isHolding = false;
-
+        
         //현재 배속에 맞춰 롱노트의 기둥 길이 설정
         float currentSpeed = FindObjectOfType<NoteSpawner>().NoteSpeed;
         UpdatePillarVisual(currentSpeed);
@@ -31,10 +33,10 @@ public class LongNoteObject : NoteObject
 
     public override void UpdateNotes(float currentTime, float noteSpeed)
     {
-        if (IsHit) return;
+        if (IsHit && !_isHolding) return;
 
         //누르기 전
-        if(!IsHolding)
+        if (!IsHolding)
         {
             base.UpdateNotes(currentTime, noteSpeed); //단노트처럼 내려옴
             //기둥 길이 설정
@@ -54,15 +56,15 @@ public class LongNoteObject : NoteObject
                 _pillarRenderer.size = new Vector2(_pillarRenderer.size.x, remainingDistance);
                 _tailTransform.localPosition = new Vector3(0, remainingDistance, 0);
 
-                //키다운 틱 판정 체크
-                if (currentTime >= _nextTickTime)
+                //키다운 틱 판정 체크(렉으로 밀린 틱이 있으면 한번에 처리)
+                while (currentTime >= _nextTickTime && _nextTickTime < _endTime)
                 {
-                    // ScoreManager에 현재 판정 타입으로 점수 요청
-                    // (ScoreManager가 싱글톤 Instance라고 가정)
-                    FindObjectOfType<ScoreManager>().AddTickScore(_initialJudg);
+                    //ScoreManager에 현재 판정 타입으로 점수 요청
+                    ScoreManager.Instance.AddTickScore(_initialJudg);
+                    _nextTickTime += _tickIntervalTime; //다음 틱 목표 시간 갱신
 
-                    // 다음 틱 목표 시간 갱신
-                    _nextTickTime += _tickIntervalTime;
+                    // 안전장치: _tickIntervalTime이 0이면 무한루프에 빠지므로 체크
+                    if (_tickIntervalTime <= 0) break;
                 }
             }
             else OnLongNoteComplete(); //끝까지 키다운 성공
@@ -74,8 +76,9 @@ public class LongNoteObject : NoteObject
         _isHolding = true;
         _initialJudg = type;
 
-        //1번째 틱 시간 = 머리로부터 60틱 뒤
-        _nextTickTime = TargetTime + _tickIntervalTime;
+        //1번째 틱 시간 = 현재 머리 위치로부터 60틱 뒤
+        float currentTime = (float)FindObjectOfType<NoteSpawner>().GetCurrentTime();
+        _nextTickTime = currentTime + _tickIntervalTime;
         Debug.Log($"롱노트 판정: {type}");
     }
 
