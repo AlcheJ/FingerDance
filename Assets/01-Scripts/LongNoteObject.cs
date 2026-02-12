@@ -10,13 +10,18 @@ public class LongNoteObject : NoteObject
     private float _duration;
     private float _endTime;
     private bool _isHolding = false;
+    private JudgType _initialJudg;
+    private float _tickIntervalTime;
+    private float _nextTickTime;
     public bool IsHolding => _isHolding;
-    public override void InitializeNotes(NoteData data, float judgmentY) // 1. 인자 추가
+    public override void InitializeNotes(NoteData data, float judgmentY)
     {
         base.InitializeNotes(data, judgmentY); //부모 초기화
 
-        _duration = data.DurationTime; //계산된 롱노트 유지 시간 대입
-        _endTime = data.TargetTime + _duration;
+        if (data.DurationTick > 0)
+        {
+            _tickIntervalTime = (data.DurationTime / data.DurationTick) * 60f;
+        }
         _isHolding = false;
 
         //현재 배속에 맞춰 롱노트의 기둥 길이 설정
@@ -48,9 +53,30 @@ public class LongNoteObject : NoteObject
                 //기둥의 Y 스케일이나 SpriteRenderer의 Size를 조절
                 _pillarRenderer.size = new Vector2(_pillarRenderer.size.x, remainingDistance);
                 _tailTransform.localPosition = new Vector3(0, remainingDistance, 0);
+
+                //키다운 틱 판정 체크
+                if (currentTime >= _nextTickTime)
+                {
+                    // ScoreManager에 현재 판정 타입으로 점수 요청
+                    // (ScoreManager가 싱글톤 Instance라고 가정)
+                    FindObjectOfType<ScoreManager>().AddTickScore(_initialJudg);
+
+                    // 다음 틱 목표 시간 갱신
+                    _nextTickTime += _tickIntervalTime;
+                }
             }
             else OnLongNoteComplete(); //끝까지 키다운 성공
         }
+    }
+
+    public void OnHitWithJudg(JudgType type)
+    {
+        _isHolding = true;
+        _initialJudg = type;
+
+        //1번째 틱 시간 = 머리로부터 60틱 뒤
+        _nextTickTime = TargetTime + _tickIntervalTime;
+        Debug.Log($"롱노트 판정: {type}");
     }
 
     void UpdatePillarVisual(float noteSpeed)

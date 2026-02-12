@@ -41,7 +41,6 @@ public class GlobalDataManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(gameObject);
             _dataLoader = GetComponent<SongDataLoader>();
-            Debug.Log($"[GlobalDataManager] 내가 살아남았습니다! 오브젝트 이름: {gameObject.name}");
             Initialize(); // 데이터 초기화 실행
         }
         else

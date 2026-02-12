@@ -69,6 +69,7 @@
     <Compile Include="Assets\01-Scripts\PlayResult.cs" />
     <Compile Include="Assets\01-Scripts\PopupManager.cs" />
     <Compile Include="Assets\01-Scripts\SongDataLoader.cs" />
+    <Compile Include="Assets\01-Scripts\ScoreManager.cs" />
     <Compile Include="Assets\01-Scripts\NoteData.cs" />
     <Compile Include="Assets\01-Scripts\BarLineObject.cs" />
     <Compile Include="Assets\01-Scripts\LongNoteObject.cs" />
