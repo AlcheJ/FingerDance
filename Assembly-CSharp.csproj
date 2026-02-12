@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\01-Scripts\InputFeedbackManager.cs" />
     <Compile Include="Assets\01-Scripts\NoteObject.cs" />
+    <Compile Include="Assets\01-Scripts\ResultViewer.cs" />
     <Compile Include="Assets\01-Scripts\SongEntry.cs" />
     <Compile Include="Assets\01-Scripts\JudgmentEffectManager.cs" />
     <Compile Include="Assets\01-Scripts\SongMetaData.cs" />

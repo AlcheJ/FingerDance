@@ -21,8 +21,9 @@ public class GlobalDataManager : MonoBehaviour
 
     // 플레이 결과 데이터 (클래스/구조체 만들어야 함)
     private PlayResult _lastPlayResult;
+	public PlayResult LastPlayResult => _lastPlayResult;
 
-    private static GlobalDataManager _instance = null;
+	private static GlobalDataManager _instance = null;
     public static GlobalDataManager Instance
     {
         get
