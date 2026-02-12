@@ -21,8 +21,9 @@ public class GlobalDataManager : MonoBehaviour
 
     // 플레이 결과 데이터 (클래스/구조체 만들어야 함)
     private PlayResult _lastPlayResult;
+	public PlayResult LastPlayResult => _lastPlayResult;
 
-    private static GlobalDataManager _instance = null;
+	private static GlobalDataManager _instance = null;
     public static GlobalDataManager Instance
     {
         get
@@ -41,7 +42,6 @@ public class GlobalDataManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(gameObject);
             _dataLoader = GetComponent<SongDataLoader>();
-            Debug.Log($"[GlobalDataManager] 내가 살아남았습니다! 오브젝트 이름: {gameObject.name}");
             Initialize(); // 데이터 초기화 실행
         }
         else
