@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C11208FF-E913-1728-B429-DB90676B1523}</ProjectGuid>
+    <ProjectGuid>{69BC77B9-3715-04F0-872C-993EA84B2E23}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\01-Scripts\InputFeedbackManager.cs" />
     <Compile Include="Assets\01-Scripts\NoteObject.cs" />
+    <Compile Include="Assets\01-Scripts\ResultViewer.cs" />
     <Compile Include="Assets\01-Scripts\SongEntry.cs" />
     <Compile Include="Assets\01-Scripts\JudgmentEffectManager.cs" />
     <Compile Include="Assets\01-Scripts\SongMetaData.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\01-Scripts\PlayResult.cs" />
     <Compile Include="Assets\01-Scripts\PopupManager.cs" />
     <Compile Include="Assets\01-Scripts\SongDataLoader.cs" />
+    <Compile Include="Assets\01-Scripts\ScoreManager.cs" />
     <Compile Include="Assets\01-Scripts\NoteData.cs" />
     <Compile Include="Assets\01-Scripts\BarLineObject.cs" />
     <Compile Include="Assets\01-Scripts\LongNoteObject.cs" />

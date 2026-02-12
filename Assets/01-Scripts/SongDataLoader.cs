@@ -65,6 +65,8 @@ public class SongDataLoader : MonoBehaviour
             currentCumulativeTick += (long)currentNumerator * meta.Resolution;
         }
 
+        int totalUnits = 0; //총 판정 단위
+
         foreach (NoteData note in chart.Notes)
         {
             if (barStartTickMap.TryGetValue(note.Bar, out long barStartTick))
@@ -73,12 +75,19 @@ public class SongDataLoader : MonoBehaviour
                 long totalTicks = barStartTick + note.Tick;
                 note.TargetTime = totalTicks * secondsPerTick;
                 //롱노트 지속시간 계산
-                if (note.Type == NoteType.Long)
+                if (note.Type == NoteType.Short) totalUnits++;
+                else if (note.Type == NoteType.Long)
                 {
                     note.DurationTime = note.DurationTick * secondsPerTick;
-                    Debug.Log($"[LongNote Data] {meta.SongTitle} - Duration: {note.DurationTime}s");
+                    int ticks = note.DurationTick / 60;
+                    totalUnits += (1 + ticks); //머리 1에 60틱마다 1판정
                 }
             }
+        }
+
+        if(ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.InitializeScore(totalUnits);
         }
         //노트 데이터를 시간순 정렬
         chart.Notes.Sort((a, b) => a.TargetTime.CompareTo(b.TargetTime));

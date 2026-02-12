@@ -25,6 +25,15 @@ public class JudgmentManager : MonoBehaviour
     //판정이 날 때마다 판정 종류와 레인 번호를 전송
     public event Action<JudgType, int> OnJudged;
 
+    private void Start()
+    {
+        // 인스펙터 연결 대신, 싱글톤 인스턴스의 이벤트를 찾아가서 내 함수를 등록합니다.
+        if (ScoreManager.Instance != null)
+        {
+            //판정이 발생하면 ScoreManager의 AddScore를 실행
+            this.OnJudged += (type, lane) => ScoreManager.Instance.AddScore(type);
+        }
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) { StartLaneInput(0); }
@@ -90,10 +99,9 @@ public class JudgmentManager : MonoBehaviour
             note.HandleMiss();
             //여기에 콤보 초기화 등의 호출을 넣을 것
         }
-        else note.OnHit(); //노트 처리되어 사라짐
+        else note.OnHit(type); //노트 처리되어 사라짐
 
         OnJudged?.Invoke(type, lane);
-        Debug.Log($"[Judge] Lane {lane}: {type} (오차: {(AudioSettings.dspTime - _noteSpawner.StartTime - note.TargetTime) * 1000:F2}ms)");
     }
 
     public void NotifyMiss(int laneIndex)

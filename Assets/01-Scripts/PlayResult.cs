@@ -27,9 +27,15 @@ public class PlayResult
     [SerializeField] private bool _isPerfectPlay;
 
     public string SongID => _songId;
-    public float Accuracy => _accuracy;
+    public string SongTitle => _songTitle;
+    public int DifficultyLevel => _difficultyLevel;
     public int Score => _score;
     public int MaxCombo => _maxCombo;
+    public float Accuracy => _accuracy;
+    public int PerfectCount => _perfectCount;
+    public int GoodCount => _goodCount;
+    public int OKCount => _okCount;
+    public int MissCount => _missCount;
     public bool IsFullCombo => _isFullCombo;
     public bool IsPerfectPlay => _isPerfectPlay;
 
