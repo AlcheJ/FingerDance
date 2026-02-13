@@ -145,7 +145,9 @@ public class ScoreManager : MonoBehaviour
         _goodCount,
         _okCount,
         _missCount,
-        _maxCombo
+        _maxCombo,
+        CurrentScore,
+        CurrentAccuracy
         );
 
         //참고: 점수와 정확도는 PlayResult.CalculateResult()가 처리 중

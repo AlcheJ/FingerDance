@@ -9,9 +9,9 @@ public enum Rank { S, A, B, C, F }
 [Serializable]
 public class PlayResult
 {
-    private const float PerfectWeight = 1f;
-    private const float GoodWeight = 0.8f;
-    private const float OKWeight = 0.5f;
+    //private const float PerfectWeight = 1f;
+    //private const float GoodWeight = 0.8f;
+    //private const float OKWeight = 0.5f;
 
     [SerializeField] private string _songId;
     [SerializeField] private string _songTitle;
@@ -39,7 +39,7 @@ public class PlayResult
     public bool IsFullCombo => _isFullCombo;
     public bool IsPerfectPlay => _isPerfectPlay;
 
-    public PlayResult(string id, string title, int level, int perfect, int good, int ok, int miss, int maxCombo, int finalScore)
+    public PlayResult(string id, string title, int level, int perfect, int good, int ok, int miss, int maxCombo, int finalScore, float finalAccuracy)
     {
         _songId = id;
         _songTitle = title;
@@ -49,20 +49,15 @@ public class PlayResult
         _goodCount = good;
         _okCount = ok;
         _missCount = miss;
+
         _score = finalScore; //계산된 점수를 직접 받기 위함
-       
-        CalculateResult(); //점수계산을 제외하도록 변경해야 함
+        _accuracy = finalAccuracy;
+
+        SetAchievementFlags(); //점수계산을 제외하도록 변경해야 함
     }
 
-    void CalculateResult()
+    void SetAchievementFlags() //풀콤 퍼펙트만 저장
     {
-        int totalNotes = _perfectCount + _goodCount + _okCount + _missCount;
-        if (totalNotes <= 0) return;
-
-        float totalWeight = (_perfectCount * PerfectWeight) + (_goodCount * GoodWeight) + (_okCount * OKWeight);
-        _accuracy = (totalWeight / totalNotes) * 100f;
-        _score = Mathf.RoundToInt((totalWeight / totalNotes) * 1000000f);
-
         _isFullCombo = (_missCount == 0);
         _isPerfectPlay = (_isFullCombo && _goodCount == 0 && _okCount == 0);
     }

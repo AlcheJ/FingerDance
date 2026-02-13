@@ -46,8 +46,11 @@ public class SaveManager : MonoBehaviour
     public void SaveRecord(PlayResult result)
     {
         bool isUpdated = false;
+        //곡ID 및 난이도를 합친 고유 키
+        string saveKey = $"{result.SongID}_{result.DifficultyLevel}";
+
         //기존 기록의 존재 여부 확인(예외 발생 방지)
-        if(_cachedRecords.TryGetValue(result.SongID, out SavingData existingData))
+        if (_cachedRecords.TryGetValue(saveKey, out SavingData existingData))
         {
             //정확도 기준으로 최고 기록 여부 판단
             if(result.Accuracy > existingData.bestAccuracy)
@@ -64,14 +67,14 @@ public class SaveManager : MonoBehaviour
         {
             SavingData newData = new SavingData
             {
-                songID = result.SongID,
+                songID = saveKey,
                 bestScore = result.Score,
                 bestAccuracy = result.Accuracy,
                 maxCombo = result.MaxCombo,
                 isFullCombo = result.IsFullCombo,
                 isPerfectPlay = result.IsPerfectPlay
             };
-            _cachedRecords.Add(result.SongID, newData);
+            _cachedRecords.Add(saveKey, newData);
             isUpdated = true;
         }
         if (isUpdated) //위의 두 경우를 기록
@@ -107,9 +110,14 @@ public class SaveManager : MonoBehaviour
         Debug.Log("[SaveManager] 기존 기록 로드 완료.");
     }
     //선곡 씬에서 해당 곡의 기록 유무 확인(왕관 있냐?)
-    public SavingData GetRecord(string songId)
+    public SavingData GetRecord(string songId, int level)
     {
-        _cachedRecords.TryGetValue(songId, out SavingData data);
-        return data;
+        string key = $"{songId}_{level}";
+
+        if (_cachedRecords.TryGetValue(key, out SavingData data))
+        {
+            return data;
+        }
+        return null;
     }
 }
