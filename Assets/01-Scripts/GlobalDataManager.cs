@@ -7,6 +7,9 @@ using UnityEngine;
 //씬이 바뀌어도 유지되어야 하는 싱글톤 개체
 public class GlobalDataManager : MonoBehaviour
 {
+    [SerializeField] private CanvasGroup _fadeCanvasGroup;
+    private bool _isFading = false;
+
     private List<SongMetaData> _allSongs = new List<SongMetaData>();
     private SongMetaData _selectedSong;
     private SongDataLoader _dataLoader; // 다른 매니저 참조용 변수
@@ -19,7 +22,7 @@ public class GlobalDataManager : MonoBehaviour
     public SongChartData CurrentChart => _currentChart;
     public int SelectedDifficultyIndex => _selectedDifficultyIndex;
 
-    // 플레이 결과 데이터 (클래스/구조체 만들어야 함)
+    //플레이 결과 데이터
     private PlayResult _lastPlayResult;
 	public PlayResult LastPlayResult => _lastPlayResult;
 
@@ -31,11 +34,16 @@ public class GlobalDataManager : MonoBehaviour
             if (_instance == null)
             {
                 _instance = FindObjectOfType<GlobalDataManager>();
+
+                if (_instance == null)
+                {
+                    Debug.LogError("[GlobalDataManager] 활성화된 매니저가 씬에 없습니다!");
+                }
             }
             return _instance;
         }
     }
-    private void Awake()
+    void Awake()
     {
         if (_instance == null)
         {
@@ -52,7 +60,7 @@ public class GlobalDataManager : MonoBehaviour
     }
 
     // 게임 시작 시 모든 곡 데이터를 로드
-    private void Initialize()
+    void Initialize()
     {
 
         // 'Resources/Charts' 폴더 내의 모든 JSON을 불러옴
@@ -101,12 +109,51 @@ public class GlobalDataManager : MonoBehaviour
     public void UpdateResult(PlayResult result)
     {
         _lastPlayResult = result;
-        // TODO: 최고 기록 갱신 로직 및 SaveManager 연동
+
+        if (SaveManager.Instance != null)
+        {
+            SaveManager.Instance.SaveRecord(result);
+            Debug.Log($"[GlobalDataManager] 결과 데이터 수신 완료: {result.SongID}");
+        }
+        else
+        {
+            Debug.LogWarning("[GlobalDataManager] SaveManager를 찾을 수 없습니다.");
+        }
     }
 
     //로딩 완료된 채보 데이터 저장
     public void SetCurrentChart(SongChartData chart)
     {
         _currentChart = chart;
+    }
+
+    public void FadeOut(float duration, Action onComplete = null)
+    {
+        if (_isFading) return;
+        StartCoroutine(FadeCo(0f, 1f, duration, onComplete));
+    }
+    public void FadeIn(float duration, Action onComplete = null)
+    {
+        if (_isFading) return;
+        StartCoroutine(FadeCo(1f, 0f, duration, onComplete));
+    }
+    IEnumerator FadeCo(float startAlpha, float endAlpha, float duration, Action onComplete)
+    {
+        _isFading = true;
+        _fadeCanvasGroup.gameObject.SetActive(true);
+
+        float elapsed = 0f;
+        while(elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            _fadeCanvasGroup.alpha = Mathf.Lerp(startAlpha, endAlpha, elapsed / duration);
+            yield return null;
+        }
+        _fadeCanvasGroup.alpha = endAlpha;
+        _isFading = false;
+
+        //페이드 종료 후 캔버스 비활성화
+        if (endAlpha <= 0f) _fadeCanvasGroup.gameObject.SetActive(false);
+        onComplete?.Invoke();
     }
 }

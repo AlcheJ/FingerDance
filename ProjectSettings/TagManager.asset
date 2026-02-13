@@ -17,7 +17,7 @@ TagManager:
   - Button
   - Note
   - Loading
-  - 
+  - Fade
   - 
   - 
   - 
@@ -55,4 +55,10 @@ TagManager:
     locked: 0
   - name: Note
     uniqueID: 529270893
+    locked: 0
+  - name: LaneButton
+    uniqueID: 236468207
+    locked: 0
+  - name: Fade
+    uniqueID: 40486799
     locked: 0

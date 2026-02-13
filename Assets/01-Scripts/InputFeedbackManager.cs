@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//키 입력에 따른 레인 효과 담당
 public class InputFeedbackManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] _laneFlares;
@@ -37,7 +38,7 @@ public class InputFeedbackManager : MonoBehaviour
         }
     }
     //빛 효과의 빠른 페이드아웃
-    private IEnumerator FadeOutFlareCo(int laneIndex)
+    IEnumerator FadeOutFlareCo(int laneIndex)
     {
         yield return new WaitForSeconds(0.05f);
         _laneFlares[laneIndex].SetActive(false);

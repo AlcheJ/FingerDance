@@ -36,7 +36,7 @@ public class SaveManager : MonoBehaviour
         {
             _instance = this;
             DontDestroyOnLoad(gameObject);
-            //persist 어쩌구: 런타임 도중 플레이데이터 저장 가능
+            //persistentDataPath: 런타임 도중 플레이데이터 저장 가능
             _fullPath = Path.Combine(Application.persistentDataPath, _saveFileName);
             LoadAllRecords(); //기존 기록 부르고 시작
         }
@@ -58,25 +58,25 @@ public class SaveManager : MonoBehaviour
                 existingData.isFullCombo = result.IsFullCombo;
                 existingData.isPerfectPlay = result.IsPerfectPlay;
                 isUpdated = true;
-            }
-            else //플레이 기록 없으면 새로 생성
+            }  
+        }
+        else //플레이 기록 없으면 새로 생성
+        {
+            SavingData newData = new SavingData
             {
-                SavingData newData = new SavingData
-                {
-                    songID = result.SongID,
-                    bestScore = result.Score,
-                    bestAccuracy = result.Accuracy,
-                    maxCombo = result.MaxCombo,
-                    isFullCombo = result.IsFullCombo,
-                    isPerfectPlay = result.IsPerfectPlay
-                };
-                _cachedRecords.Add(result.SongID, newData);
-                isUpdated = true;
-            }
-            if (isUpdated) //위의 두 경우를 기록
-            {
-                WriteToFile();
-            }
+                songID = result.SongID,
+                bestScore = result.Score,
+                bestAccuracy = result.Accuracy,
+                maxCombo = result.MaxCombo,
+                isFullCombo = result.IsFullCombo,
+                isPerfectPlay = result.IsPerfectPlay
+            };
+            _cachedRecords.Add(result.SongID, newData);
+            isUpdated = true;
+        }
+        if (isUpdated) //위의 두 경우를 기록
+        {
+            WriteToFile();
         }
     }
 

@@ -25,7 +25,10 @@ public class JudgmentManager : MonoBehaviour
     //판정이 날 때마다 판정 종류와 레인 번호를 전송
     public event Action<JudgType, int> OnJudged;
 
-    private void Start()
+    //각 레인이 지금 누르는 롱노트를 저장하는 곳
+    private LongNoteObject[] _activeHoldNotes = new LongNoteObject[4];
+
+    void Start()
     {
         // 인스펙터 연결 대신, 싱글톤 인스턴스의 이벤트를 찾아가서 내 함수를 등록합니다.
         if (ScoreManager.Instance != null)
@@ -34,20 +37,32 @@ public class JudgmentManager : MonoBehaviour
             this.OnJudged += (type, lane) => ScoreManager.Instance.AddScore(type);
         }
     }
-    private void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) { StartLaneInput(0); }
         if (Input.GetKeyDown(KeyCode.R)) { StartLaneInput(1); }
         if (Input.GetKeyDown(KeyCode.O)) { StartLaneInput(2); }
         if (Input.GetKeyDown(KeyCode.P)) { StartLaneInput(3); }
 
-        if (Input.GetKeyUp(KeyCode.E)) _feedbackManager.StopFeedback(0);
-        if (Input.GetKeyUp(KeyCode.R)) _feedbackManager.StopFeedback(1);
-        if (Input.GetKeyUp(KeyCode.O)) _feedbackManager.StopFeedback(2);
-        if (Input.GetKeyUp(KeyCode.P)) _feedbackManager.StopFeedback(3);
+        if (Input.GetKeyUp(KeyCode.E)) HandleKeyUp(0);
+        if (Input.GetKeyUp(KeyCode.R)) HandleKeyUp(1);
+        if (Input.GetKeyUp(KeyCode.O)) HandleKeyUp(2);
+        if (Input.GetKeyUp(KeyCode.P)) HandleKeyUp(3);
     }
 
-    private void StartLaneInput(int laneIndex)
+    //키를 뗐을 때 실행
+    void HandleKeyUp(int laneIndex)
+    {
+        _feedbackManager.StopFeedback(laneIndex);
+        //롱노트 입력 중단 로직
+        if (_activeHoldNotes[laneIndex] != null)
+        {
+            _activeHoldNotes[laneIndex].OnRelease(); //롱노트 입력 멈춤을 알림
+            _activeHoldNotes[laneIndex] = null; //입력 중인 롱노트 정보 제거
+        }
+    }
+
+    void StartLaneInput(int laneIndex)
     {
         _feedbackManager.StartFeedback(laneIndex); //빛 효과, 키음
         ProcessInput(laneIndex);
@@ -99,7 +114,15 @@ public class JudgmentManager : MonoBehaviour
             note.HandleMiss();
             //여기에 콤보 초기화 등의 호출을 넣을 것
         }
-        else note.OnHit(type); //노트 처리되어 사라짐
+        else
+        {
+            if (note is LongNoteObject longNote)
+            {
+                _activeHoldNotes[lane] = longNote; //롱노트는 인덱스로
+                longNote.OnHit(type);
+            }
+            else note.OnHit(type);
+        }
 
         OnJudged?.Invoke(type, lane);
     }

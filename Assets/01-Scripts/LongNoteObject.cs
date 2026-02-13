@@ -103,14 +103,14 @@ public class LongNoteObject : NoteObject
         Debug.Log($"롱노트 홀딩 시작: {type}");
     }
     //InputManager에서 KeyUp 시 호출
-    public void OnRelease(float currentTime)
+    public void OnRelease()
     {
         if(_isHolding)
         {
             HandleMiss(); //너무 일찍 떼면 미스
         }
     }
-    private void OnLongNoteComplete()
+    void OnLongNoteComplete()
     {
         //만약 프레임 오차로 못 준 틱이 남아있다면 여기서 해결
         while (_ticksGivenCount < _totalTicksToGive)

@@ -15,6 +15,7 @@ public class NoteSpawner : MonoBehaviour
     private int _noteIndex = 0; //지금 몇 번째 노트임?
     private double _startTime;
     private bool _isGameStarted = false;
+    private bool _isEnding = false;
     private List<NoteObject> _activeNotes = new List<NoteObject>(); //지금 움직이는 노트
 
     private int _barIndex; //마디선 개수
@@ -29,7 +30,7 @@ public class NoteSpawner : MonoBehaviour
 
     // --- 기즈모 구현 (Scene 뷰 시각화) ---
 #if UNITY_EDITOR
-    private void OnDrawGizmos()
+    void OnDrawGizmos()
     {
         if (_laneXPositions == null || _laneXPositions.Length == 0) return;
 
@@ -97,9 +98,9 @@ public class NoteSpawner : MonoBehaviour
         Debug.Log($"한 마디당 시간: {_secPerMeasure}");
     }
 
-    private void Update()
+    void Update()
     {
-        if (!_isGameStarted) return;
+        if (!_isGameStarted || _isEnding) return;
 
         //현재 게임 시간(음악 시작점은 0)
         float currentTime = (float)(AudioSettings.dspTime - _startTime);
@@ -109,7 +110,12 @@ public class NoteSpawner : MonoBehaviour
         UpdateActiveBarLines(currentTime); //마디선 이동
         _activeNotes.RemoveAll(note => !note.gameObject.activeSelf); //비활성화된 노트 제거
         _activeBarLines.RemoveAll(bar => !bar.gameObject.activeSelf); //마디선 제거
-        Debug.Log($"현재 시간: {currentTime}, 다음 소환 인덱스: {_noteIndex}");
+        
+        //게임 종료 감지
+        if(_noteIndex >= _currentChart.Notes.Count && _activeNotes.Count == 0 && !_audioSource.isPlaying)
+        {
+            StartCoroutine(FinishGameCo());
+        }
     }
 
     void CheckSpawn(float currentTime)
@@ -203,10 +209,34 @@ public class NoteSpawner : MonoBehaviour
     //게임 진행 시간을 반환
     public double GetCurrentTime()
     {
-        // 게임이 시작되지 않았다면 0을 반환하거나 예외 처리
         if (!_isGameStarted) return 0;
 
-        // 절대 dspTime에서 게임 시작 시점의 dspTime을 빼서 경과 시간을 구합니다.
         return AudioSettings.dspTime - _startTime;
+    }
+
+    //한 곡 완료 시 작동
+    IEnumerator FinishGameCo()
+    {
+        _isEnding = true;
+        Debug.Log("[Game] 모든 연주 종료. 결과 집계 중...");
+        yield return null; //기다릴 필요... 있나? 음.
+
+        //ScoreManager로부터 최종 데이터를 가져와...
+        if (ScoreManager.Instance != null)
+        {
+            PlayResult finalResult = ScoreManager.Instance.GetFinalResult();
+
+            Debug.Log($"[Spawner] 데이터 포장 완료: {finalResult.SongID}, 점수: {finalResult.Score}");
+            //GlobalDataManager(싱글톤)에 정보 주입
+            GlobalDataManager.Instance.UpdateResult(finalResult);
+        }
+        else
+        {
+            Debug.LogError("[Spawner] ScoreManager를 찾을 수 없어 데이터를 보낼 수 없습니다!");
+        }
+
+        GlobalDataManager.Instance.FadeOut(1.5f, () => {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("3-SongResult");
+        });
     }
 }

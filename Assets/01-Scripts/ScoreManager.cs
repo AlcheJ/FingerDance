@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour
     private static ScoreManager _instance;
     public static ScoreManager Instance => _instance;
 
-    private void Awake()
+    void Awake()
     {
         if (_instance == null) _instance = this;
         else Destroy(gameObject);
@@ -60,7 +60,7 @@ public class ScoreManager : MonoBehaviour
     }
 
     //판정 가중치
-    private double GetWeight(JudgType type)
+    double GetWeight(JudgType type)
     {
         return type switch
         {
@@ -106,25 +106,49 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreUI();
     }
 
-    private void CalculateCurrentScore()
+    void CalculateCurrentScore()
     {
         _currentScore = (_totalWeightEarned / _totalScoringUnits) * MaxScore;
     }
-    private void AddCombo()
+    void AddCombo()
     {
         _currentCombo++;
         if (_currentCombo > _maxCombo) _maxCombo = _currentCombo;
     }
 
-    private void ResetCombo()
+    void ResetCombo()
     {
         _currentCombo = 0;
     }
 
-    private void UpdateScoreUI()
+    void UpdateScoreUI()
     {
         if (_scoreText != null) _scoreText.text = CurrentScore.ToString("N0"); //3자리 단위 콤마
         if (_accuracyText != null) _accuracyText.text = $"{CurrentAccuracy:F2}%"; //소수점 2자리까지 표기
         if (_comboText != null) _comboText.text = _currentCombo > 0 ? _currentCombo.ToString() : "";
+    }
+
+    //곡 종료 후의 플레이 데이터를 PlayResult 형태로 반환
+    public PlayResult GetFinalResult()
+    {
+        //현재 곡의 메타 데이터
+        var meta = GlobalDataManager.Instance.SelectedSong;
+        int diffIndex = GlobalDataManager.Instance.SelectedDifficultyIndex;
+        int level = meta.DifficultyList[diffIndex].Level;
+
+        //이 곡의 플레이 데이터
+        PlayResult result = new PlayResult(
+        meta.SongID,
+        meta.SongTitle,
+        level,
+        _perfectCount,
+        _goodCount,
+        _okCount,
+        _missCount,
+        _maxCombo
+        );
+
+        //참고: 점수와 정확도는 PlayResult.CalculateResult()가 처리 중
+        return result;
     }
 }

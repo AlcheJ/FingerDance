@@ -39,7 +39,7 @@ public class PlayResult
     public bool IsFullCombo => _isFullCombo;
     public bool IsPerfectPlay => _isPerfectPlay;
 
-    public PlayResult(string id, string title, int level, int perfect, int good, int ok, int miss, int maxCombo)
+    public PlayResult(string id, string title, int level, int perfect, int good, int ok, int miss, int maxCombo, int finalScore)
     {
         _songId = id;
         _songTitle = title;
@@ -49,8 +49,9 @@ public class PlayResult
         _goodCount = good;
         _okCount = ok;
         _missCount = miss;
+        _score = finalScore; //계산된 점수를 직접 받기 위함
        
-        CalculateResult();
+        CalculateResult(); //점수계산을 제외하도록 변경해야 함
     }
 
     void CalculateResult()

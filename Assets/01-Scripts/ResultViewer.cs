@@ -26,27 +26,43 @@ public class ResultViewer : MonoBehaviour
     [SerializeField] private GameObject _crownFullCombo;
     [SerializeField] private GameObject _crownPerfectPlay;
 
+    [Header("브금")]
+    [SerializeField] private AudioSource _resultBGM;
+
     private PlayResult _data;
     private bool _canEnter = false;
 
     void Start()
     {
         _data = GlobalDataManager.Instance.LastPlayResult;
-
-        if(_data == null)
+        if (_data == null)
         {
             Debug.LogWarning("[Result] 전달된 데이터가 없어 테스트용 데이터를 사용합니다.");
             _data = new PlayResult("TEST_ID", "Test Song", 5, 500, 10, 5, 0, 515);
         }
 
+        if (GlobalDataManager.Instance != null)
+        {
+            GlobalDataManager.Instance.FadeIn(1.5f);
+        }
+        
         InitializeUI();
         StartCoroutine(ResultSequenceCo());
+
+        if (_resultBGM != null)
+        {
+            _resultBGM.loop = true;
+            _resultBGM.volume = 0f;
+            _resultBGM.Play();
+            StartCoroutine(FadeInBGM(1.5f));
+        }
     }
 
     void Update()
     {
         if (_canEnter && Input.GetKeyDown(KeyCode.Return))
         {
+            ExitToSelectScene();
             SceneManager.LoadScene("1-SongSelect");
         }
     }
@@ -163,5 +179,47 @@ public class ResultViewer : MonoBehaviour
             yield return null;
         }
         text.text = $"({end:F2}%)";
+    }
+
+    public void OnExitButtonClicked()
+    {
+        if (_canEnter) ExitToSelectScene();
+    }
+
+    void ExitToSelectScene()
+    {
+        _canEnter = false;
+
+        StartCoroutine(FadeOutBGM(1.5f));
+        GlobalDataManager.Instance.FadeOut(1.5f, () => {
+            SceneManager.LoadScene("1-SongSelect");
+        });
+    }
+    IEnumerator FadeInBGM(float duration)
+    {
+        float targetVolume = 1f;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            _resultBGM.volume = Mathf.Lerp(0f, targetVolume, elapsed / duration);
+            yield return null;
+        }
+        _resultBGM.volume = targetVolume;
+    }
+    IEnumerator FadeOutBGM(float duration)
+    {
+        float startVolume = _resultBGM.volume;
+        float elapsed = 0f;
+
+        while(elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            _resultBGM.volume = Mathf.Lerp(startVolume, 0f, elapsed / duration);
+            yield return null;
+        }
+        _resultBGM.Stop();
+        _resultBGM.loop = false;
     }
 }

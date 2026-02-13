@@ -403,12 +403,6 @@
         },
         {
             "bar": 4,
-            "tick": 960,
-            "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 4,
             "tick": 1080,
             "lane": 1,
             "noteType": "Long",
@@ -420,12 +414,6 @@
             "lane": 2,
             "noteType": "Long",
             "durationTick": 120
-        },
-        {
-            "bar": 4,
-            "tick": 1200,
-            "lane": 0,
-            "noteType": "Short"
         },
         {
             "bar": 4,
@@ -524,12 +512,6 @@
         },
         {
             "bar": 5,
-            "tick": 960,
-            "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 5,
             "tick": 1080,
             "lane": 2,
             "noteType": "Long",
@@ -541,12 +523,6 @@
             "lane": 3,
             "noteType": "Long",
             "durationTick": 120
-        },
-        {
-            "bar": 5,
-            "tick": 1200,
-            "lane": 0,
-            "noteType": "Short"
         },
         {
             "bar": 5,
@@ -645,12 +621,6 @@
         },
         {
             "bar": 6,
-            "tick": 960,
-            "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 6,
             "tick": 1080,
             "lane": 1,
             "noteType": "Long",
@@ -662,12 +632,6 @@
             "lane": 2,
             "noteType": "Long",
             "durationTick": 120
-        },
-        {
-            "bar": 6,
-            "tick": 1200,
-            "lane": 0,
-            "noteType": "Short"
         },
         {
             "bar": 6,
@@ -766,12 +730,6 @@
         },
         {
             "bar": 7,
-            "tick": 960,
-            "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 7,
             "tick": 1080,
             "lane": 0,
             "noteType": "Long",
@@ -786,12 +744,6 @@
         },
         {
             "bar": 7,
-            "tick": 1200,
-            "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 7,
             "tick": 1320,
             "lane": 0,
             "noteType": "Long",
@@ -803,12 +755,6 @@
             "lane": 1,
             "noteType": "Long",
             "durationTick": 120
-        },
-        {
-            "bar": 7,
-            "tick": 1440,
-            "lane": 1,
-            "noteType": "Short"
         },
         {
             "bar": 7,
@@ -2482,19 +2428,19 @@
         {
             "bar": 24,
             "tick": 120,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 24,
             "tick": 180,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 24,
             "tick": 240,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short"
         },
         {
@@ -2586,19 +2532,19 @@
         {
             "bar": 25,
             "tick": 120,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 25,
             "tick": 180,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 25,
             "tick": 240,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -2683,7 +2629,7 @@
         {
             "bar": 25,
             "tick": 1800,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
 
@@ -2696,19 +2642,19 @@
         {
             "bar": 26,
             "tick": 120,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 26,
             "tick": 180,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 26,
             "tick": 240,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short"
         },
         {
@@ -2751,19 +2697,19 @@
         {
             "bar": 26,
             "tick": 1140,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 26,
             "tick": 1200,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 26,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short"
         },
         {
@@ -2800,19 +2746,19 @@
         {
             "bar": 27,
             "tick": 120,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 27,
             "tick": 180,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 27,
             "tick": 240,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -4098,7 +4044,7 @@
         {
             "bar": 38,
             "tick": 960,
-            "lane": 3,
+            "lane": 0,
             "noteType": "Short"
         },
         {
@@ -4118,7 +4064,7 @@
         {
             "bar": 38,
             "tick": 1200,
-            "lane": 0,
+            "lane": 3,
             "noteType": "Short"
         },
         {
@@ -4485,19 +4431,19 @@
         {
             "bar": 42,
             "tick": 1080,
-            "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 42,
-            "tick": 1140,
             "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 42,
-            "tick": 1200,
+            "tick": 1140,
             "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1200,
+            "lane": 2,
             "noteType": "Short"
         },
         {
@@ -4509,19 +4455,19 @@
         {
             "bar": 42,
             "tick": 1560,
-            "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 42,
-            "tick": 1620,
             "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 42,
-            "tick": 1680,
+            "tick": 1620,
             "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 42,
+            "tick": 1680,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -4593,7 +4539,7 @@
         },
         {
             "bar": 43,
-            "tick": 1080,
+            "tick": 1140,
             "lane": 1,
             "noteType": "Short"
         },
@@ -4606,7 +4552,7 @@
         {
             "bar": 43,
             "tick": 1320,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -4668,12 +4614,6 @@
             "bar": 44,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 44,
-            "tick": 600,
-            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -5128,6 +5068,12 @@
         {
             "bar": 49,
             "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 0,
             "lane": 3,
             "noteType": "Short"
         },
@@ -5140,19 +5086,25 @@
         {
             "bar": 49,
             "tick": 240,
-            "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 49,
-            "tick": 360,
             "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 49,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
             "tick": 480,
-            "lane": 3,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
+            "tick": 480,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -5169,14 +5121,20 @@
         },
         {
             "bar": 49,
-            "tick": 960,
+            "tick": 840,
             "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 49,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 49,
             "tick": 1080,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
@@ -5188,31 +5146,31 @@
         {
             "bar": 49,
             "tick": 1320,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 49,
             "tick": 1440,
-            "lane": 0,
+            "lane": 3,
             "noteType": "Short"
         },
         {
             "bar": 49,
             "tick": 1560,
-            "lane": 0,
+            "lane": 2,
             "noteType": "Short"
         },
         {
             "bar": 49,
             "tick": 1680,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short"
         },
         {
             "bar": 49,
             "tick": 1800,
-            "lane": 0,
+            "lane": 2,
             "noteType": "Short"
         },
 
@@ -5221,6 +5179,897 @@
             "tick": 0,
             "lane": 0,
             "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 50,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 51,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 51,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 52,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 600,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 52,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 53,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1440,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1560,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 53,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 54,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 120,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 360,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 600,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 54,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 55,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 360,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1560,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 55,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 56,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 840,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 840,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1080,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1320,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1680,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1800,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 56,
+            "tick": 1800,
+            "lane": 1,
+            "noteType": "Short"
+        },
+
+        {
+            "bar": 57,
+            "tick": 120,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 120,
+            "lane": 1,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short"
+        },
+        {
+            "bar": 57,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 1920
+        },
+        {
+            "bar": 57,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 1920
         }
     ]
 }

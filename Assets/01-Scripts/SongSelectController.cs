@@ -39,6 +39,7 @@ public class SongSelectController : MonoBehaviour
     {
         RefreshSongList();
         PlayPreview();
+        GlobalDataManager.Instance.FadeIn(1.5f);
     }
 
     private void Update()
