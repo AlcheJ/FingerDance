@@ -6,7 +6,7 @@ public class EditorManager : MonoBehaviour
 {
     [Header("에디터 기본 설정")]
     [SerializeField] private float _scrollSpeed = 0.5f; //휠 1칸당 이동할 시간
-    [SerializeField] private float _noteSpeed = 10f; //인게임과 동일한 배속
+    [SerializeField] private float _noteSpeed = 8f; //인게임과 동일한 배속
     [SerializeField] private float _judgmentY = -2.7f;
 
     [Header("References")]

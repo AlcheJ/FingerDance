@@ -65,7 +65,8 @@
     <Compile Include="Assets\01-Scripts\ResultViewer.cs" />
     <Compile Include="Assets\01-Scripts\SongEntry.cs" />
     <Compile Include="Assets\01-Scripts\JudgmentEffectManager.cs" />
-    <Compile Include="Assets\01-Scripts\EditorManager.cs" />
+    <Compile Include="Assets\01-Scripts\Map Editor\EditorManager.cs" />
+    <Compile Include="Assets\01-Scripts\Map Editor\GridManager.cs" />
     <Compile Include="Assets\01-Scripts\SongMetaData.cs" />
     <Compile Include="Assets\01-Scripts\GlobalDataManager.cs" />
     <Compile Include="Assets\01-Scripts\PlayResult.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\01-Scripts\SaveManager.cs" />
     <Compile Include="Assets\01-Scripts\SongChartData.cs" />
     <Compile Include="Assets\01-Scripts\SongSelectController.cs" />
+    <Compile Include="Assets\01-Scripts\Map Editor\EditorTimeline.cs" />
     <Compile Include="Assets\01-Scripts\SongInfoView.cs" />
     <Compile Include="Assets\01-Scripts\NoteSpawner.cs" />
     <Compile Include="Assets\01-Scripts\NotePoolManager.cs" />
