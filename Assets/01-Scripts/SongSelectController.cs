@@ -72,9 +72,9 @@ public class SongSelectController : MonoBehaviour
             if (entry != null)
             {
                 SongMetaData song = _allSongs[i]; //리스트의 i번째 곡 정보 추출
-                int level = song.DifficultyList[_currentDifficultyIndex].Level; //실제 레벨 추츨
+                string diffType = song.DifficultyList[_currentDifficultyIndex].DifficultyType; //실제 난이도 추츨
                 //데이터 주입: 곡 정보와 플레이 기록(풀콤 유무 등)
-                var record = SaveManager.Instance.GetRecord(song.SongID, level);
+                var record = SaveManager.Instance.GetRecord(song.SongID, diffType);
                 entry.SetData(_allSongs[i], record);
                 _entryList.Add(entry); //이 순서가 인덱스 번호임
             }
@@ -92,16 +92,16 @@ public class SongSelectController : MonoBehaviour
             //현재 인덱스와 일치하면 true 전송
             _entryList[i].SetHighlight(i == _currentSongIndex);
             //난이도를 바꿨을 때 리스트의 왕관도 실시간으로 다시 그려줘야 합니다.
-            int level = _allSongs[i].DifficultyList[_currentDifficultyIndex].Level;
-            var record = SaveManager.Instance.GetRecord(_allSongs[i].SongID, level);
+            string diffType = _allSongs[i].DifficultyList[_currentDifficultyIndex].DifficultyType;
+            var record = SaveManager.Instance.GetRecord(_allSongs[i].SongID, diffType);
             _entryList[i].SetData(_allSongs[i], record);
         }
         //여기에 선택된 곡을 스크롤 뷰 중앙에 오게 하는 로직 넣어야 함
 
         //지금 선택한 곡 및 레벨 파악, 정보창 갱신
         SongMetaData currentSong = _allSongs[_currentSongIndex];
-        int currentLevel = currentSong.DifficultyList[_currentDifficultyIndex].Level;
-        SavingData currentRecord = SaveManager.Instance.GetRecord(currentSong.SongID, currentLevel);
+        string currentDiffType = currentSong.DifficultyList[_currentDifficultyIndex].DifficultyType;
+        SavingData currentRecord = SaveManager.Instance.GetRecord(currentSong.SongID, currentDiffType);
         _infoView.ShowInfo(currentSong, currentRecord);
         _infoView.HighlightDifficulty(_currentDifficultyIndex); //기본값 0(NM)
     }
@@ -145,6 +145,7 @@ public class SongSelectController : MonoBehaviour
         if (prevDiff != _currentDifficultyIndex)
         {
             _infoView.HighlightDifficulty(_currentDifficultyIndex);
+            UpdateSelection(); //점수, 왕관 등을 새로고침
         }
 
         if (Input.GetKeyDown(KeyCode.Return))

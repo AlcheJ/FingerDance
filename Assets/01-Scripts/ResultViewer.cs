@@ -38,7 +38,7 @@ public class ResultViewer : MonoBehaviour
         if (_data == null)
         {
             Debug.LogWarning("[Result] 전달된 데이터가 없어 테스트용 데이터를 사용합니다.");
-            _data = new PlayResult("TEST_ID", "Test Song", 5, 500, 10, 5, 0, 515, 543210, 54.32f);
+            _data = new PlayResult("TEST_ID", "Test Song", "NM", 5, 500, 10, 5, 0, 515, 543210, 54.32f);
         }
 
         if (GlobalDataManager.Instance != null)

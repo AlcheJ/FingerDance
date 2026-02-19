@@ -16,6 +16,7 @@ public class PlayResult
     [SerializeField] private string _songId;
     [SerializeField] private string _songTitle;
     [SerializeField] private int _difficultyLevel;
+    [SerializeField] private string _difficultyType;
     [SerializeField] private int _score;
     [SerializeField] private int _maxCombo;
     [SerializeField] private float _accuracy;
@@ -29,6 +30,7 @@ public class PlayResult
     public string SongID => _songId;
     public string SongTitle => _songTitle;
     public int DifficultyLevel => _difficultyLevel;
+    public string DifficultyType => _difficultyType;
     public int Score => _score;
     public int MaxCombo => _maxCombo;
     public float Accuracy => _accuracy;
@@ -39,10 +41,11 @@ public class PlayResult
     public bool IsFullCombo => _isFullCombo;
     public bool IsPerfectPlay => _isPerfectPlay;
 
-    public PlayResult(string id, string title, int level, int perfect, int good, int ok, int miss, int maxCombo, int finalScore, float finalAccuracy)
+    public PlayResult(string id, string title, string diffType, int level, int perfect, int good, int ok, int miss, int maxCombo, int finalScore, float finalAccuracy)
     {
         _songId = id;
         _songTitle = title;
+        _difficultyType = diffType;
         _difficultyLevel = level;
         _maxCombo = maxCombo;
         _perfectCount = perfect;

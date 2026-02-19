@@ -131,4 +131,13 @@ public class JudgmentManager : MonoBehaviour
     {
         OnJudged?.Invoke(JudgType.Miss, laneIndex);
     }
+
+    //각 레인별로 누르고 있던 롱노트 정보를 해제
+    public void ClearHoldNote(int laneIndex)
+    {
+        if (laneIndex >= 0 && laneIndex < _activeHoldNotes.Length)
+        {
+            _activeHoldNotes[laneIndex] = null;
+        }
+    }
 }

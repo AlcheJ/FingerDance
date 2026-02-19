@@ -46,8 +46,14 @@ public class NoteObject : MonoBehaviour
     public void HandleMiss()
     {
         _isHit = true;
-        // TODO: GlobalDataManager 등에 Miss 신호를 보내 콤보를 끊어야 함
-        FindObjectOfType<JudgmentManager>().NotifyMiss(_lane);
+
+        var judgeManager = FindObjectOfType<JudgmentManager>();
+        if (judgeManager != null)
+        {
+            judgeManager.NotifyMiss(_lane);
+            judgeManager.ClearHoldNote(_lane);
+        }
+
         Debug.Log($"Miss: Lane {_lane}");
         DeactivateNote();
     }
@@ -57,9 +63,8 @@ public class NoteObject : MonoBehaviour
         _isHit = true;
         DeactivateNote();
     }
-    private void DeactivateNote()
+    void DeactivateNote()
     {
         gameObject.SetActive(false);
     }
-
 }

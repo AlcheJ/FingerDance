@@ -134,12 +134,14 @@ public class ScoreManager : MonoBehaviour
         //현재 곡의 메타 데이터
         var meta = GlobalDataManager.Instance.SelectedSong;
         int diffIndex = GlobalDataManager.Instance.SelectedDifficultyIndex;
+        string diffType = meta.DifficultyList[diffIndex].DifficultyType; //난이도 인덱스로 이름 가져오기
         int level = meta.DifficultyList[diffIndex].Level;
 
         //이 곡의 플레이 데이터
         PlayResult result = new PlayResult(
         meta.SongID,
         meta.SongTitle,
+        diffType,
         level,
         _perfectCount,
         _goodCount,

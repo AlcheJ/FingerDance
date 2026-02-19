@@ -65,6 +65,7 @@
     <Compile Include="Assets\01-Scripts\ResultViewer.cs" />
     <Compile Include="Assets\01-Scripts\SongEntry.cs" />
     <Compile Include="Assets\01-Scripts\JudgmentEffectManager.cs" />
+    <Compile Include="Assets\01-Scripts\EditorManager.cs" />
     <Compile Include="Assets\01-Scripts\SongMetaData.cs" />
     <Compile Include="Assets\01-Scripts\GlobalDataManager.cs" />
     <Compile Include="Assets\01-Scripts\PlayResult.cs" />

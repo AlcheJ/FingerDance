@@ -7,6 +7,8 @@ public class LongNoteObject : NoteObject
     [SerializeField] private SpriteRenderer _pillarRenderer;
     [SerializeField] private Transform _tailTransform;
 
+    private const float ReleaseGraceTime = 0.1f; //홀딩 해제 시 유예시간
+
     private float _duration;
     private float _endTime;
     private bool _isHolding = false;
@@ -105,9 +107,23 @@ public class LongNoteObject : NoteObject
     //InputManager에서 KeyUp 시 호출
     public void OnRelease()
     {
-        if(_isHolding)
+        if (!_isHolding) return;
+
+        // 현재 게임 시간을 가져옵니다.
+        float currentTime = (float)FindObjectOfType<NoteSpawner>().GetCurrentTime();
+
+        // [핵심 로직] 유저가 손을 뗀 시점이 종료 지점 근처인가?
+        if (currentTime >= _endTime - ReleaseGraceTime)
         {
-            HandleMiss(); //너무 일찍 떼면 미스
+            // "적당히 끝까지 잘 눌렀구나!"라고 인정해 줍니다.
+            Debug.Log("<color=cyan>롱노트 유예 합격!</color>");
+            OnLongNoteComplete(); // 정산 로직이 포함된 기존 성공 함수 호출
+        }
+        else
+        {
+            // 너무 일찍 뗐을 때는 미스 처리(HandleMiss가 ClearHoldNote 호출)
+            Debug.Log("롱노트 너무 일찍 뗌!");
+            HandleMiss();
         }
     }
     void OnLongNoteComplete()

@@ -43,25 +43,44 @@ public class SaveManager : MonoBehaviour
         else { Destroy(gameObject); }
     }
 
+    //직전 기록과 비교해 각 분야의 최고만 남기기
     public void SaveRecord(PlayResult result)
     {
         bool isUpdated = false;
-        //곡ID 및 난이도를 합친 고유 키
-        string saveKey = $"{result.SongID}_{result.DifficultyLevel}";
+        string saveKey = $"{result.SongID}_{result.DifficultyType}";
 
         //기존 기록의 존재 여부 확인(예외 발생 방지)
         if (_cachedRecords.TryGetValue(saveKey, out SavingData existingData))
         {
-            //정확도 기준으로 최고 기록 여부 판단
-            if(result.Accuracy > existingData.bestAccuracy)
+            if (result.Score > existingData.bestScore)
             {
                 existingData.bestScore = result.Score;
-                existingData.bestAccuracy = result.Accuracy;
-                existingData.maxCombo = result.MaxCombo;
-                existingData.isFullCombo = result.IsFullCombo;
-                existingData.isPerfectPlay = result.IsPerfectPlay;
                 isUpdated = true;
-            }  
+            }
+
+            if (result.Accuracy > existingData.bestAccuracy)
+            {
+                existingData.bestAccuracy = result.Accuracy;
+                isUpdated = true;
+            }
+
+            if (result.MaxCombo > existingData.maxCombo)
+            {
+                existingData.maxCombo = result.MaxCombo;
+                isUpdated = true;
+            }
+
+            if (!existingData.isFullCombo && result.IsFullCombo)
+            {
+                existingData.isFullCombo = true;
+                isUpdated = true;
+            }
+
+            if (!existingData.isPerfectPlay && result.IsPerfectPlay)
+            {
+                existingData.isPerfectPlay = true;
+                isUpdated = true;
+            }
         }
         else //플레이 기록 없으면 새로 생성
         {
@@ -110,14 +129,20 @@ public class SaveManager : MonoBehaviour
         Debug.Log("[SaveManager] 기존 기록 로드 완료.");
     }
     //선곡 씬에서 해당 곡의 기록 유무 확인(왕관 있냐?)
-    public SavingData GetRecord(string songId, int level)
+    public SavingData GetRecord(string songId, string diffType)
     {
-        string key = $"{songId}_{level}";
+        string key = $"{songId}_{diffType}";
+
+        // [디버그 추가] 내가 지금 무슨 키를 찾고 있는지 확인
+        Debug.Log($"[SaveManager] 조회 요청 키: {key}");
 
         if (_cachedRecords.TryGetValue(key, out SavingData data))
         {
+            Debug.Log($"[SaveManager] 찾기 성공! 점수: {data.bestScore}");
             return data;
         }
+
+        Debug.LogWarning($"[SaveManager] 찾기 실패! {key}에 해당하는 기록이 없습니다.");
         return null;
     }
 }
