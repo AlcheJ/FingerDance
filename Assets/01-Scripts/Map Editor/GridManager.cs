@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,32 +12,42 @@ public class GridManager : MonoBehaviour
     [Header("비트 그리드 설정")]
     // 슬라이더 인덱스에 매칭될 실제 분할 수
     private readonly int[] _divisions = { 8, 12, 16, 24, 32 };
-    private int _currentDivision;
+    private int _currentDivision = 8;
+
+    //EditorManager에서 받은 값을 기억
+    private float _cachedJudgmentY;
+    private float _cachedSpawnY;
 
     //현재 표시 중인 그리드들(마디선 재활용)
     private List<BarLineObject> _activeGridLines = new List<BarLineObject>();
 
+    //슬라이더 직접 드래그 시 호출(Inspector의 Dynamic float에 연결)
     public void OnDivisionChanged(float value)
     {
         int index = Mathf.RoundToInt(value); //정수 단위 슬라이더
         _currentDivision = _divisions[index];
-        Debug.Log($"[Grid] 입력 기준: {_currentDivision}분음표");
-        RefreshGrid();
+        
+        RefreshGrid(_cachedJudgmentY, _cachedSpawnY);
     }
 
     //슬라이더로 설정한 분할에 맞게 그리드를 생성
-    public void RefreshGrid()
+    public void RefreshGrid(float judgmentY, float spawnY)
     {
-        foreach(var line in _activeGridLines)
+        //슬라이드 바가 사용할 값 캐싱
+        _cachedJudgmentY = judgmentY;
+        _cachedSpawnY = spawnY;
+
+        foreach (var line in _activeGridLines)
         {
             NotePoolManager.Instance.ReturnBarLine(line);
         }
         _activeGridLines.Clear(); //직전 그리드들 비활성화
 
+        //데이터 유효성 검사
+        if (GlobalDataManager.Instance.SelectedSong == null || GlobalDataManager.Instance.CurrentChart == null) return;
+
         //곡 정보
         var meta = GlobalDataManager.Instance.SelectedSong;
-        float secondsPerBeat = 60f / meta.Bpm;
-
         var barTimes = GlobalDataManager.Instance.CurrentChart.BarLineTimes;
 
         for (int i = 0; i < barTimes.Count - 1; i++)
@@ -45,25 +56,21 @@ public class GridManager : MonoBehaviour
             float barEndTime = barTimes[i + 1];
             float measureDuration = barEndTime - barStartTime;
 
-            //한 마디를 현재 설정된 분할 수로 쪼갬
-            //4/4박자에서 16분할이면 16개, 2/4박자에서 16분할이면 8개
-            int linesInThisBar = Mathf.RoundToInt(_currentDivision * (meta.Numerator / 4f));
+            int numerator = meta.Numerator;
+            var sigEvent = meta.TimeSignatures.FindLast(s => s.Bar <= i);
+            if (sigEvent != null) numerator = sigEvent.Numerator;
+
+            int linesInThisBar = Mathf.RoundToInt(_currentDivision * (numerator / 4f));
 
             for (int j = 0; j < linesInThisBar; j++)
             {
                 float t = barStartTime + (measureDuration * j / linesInThisBar);
-                //여기서 마디선 생성 및 초기화 (j == 0 일 때 마디선 강조)
+                BarLineObject line = NotePoolManager.Instance.GetBarLine();
+                line.InitializeBarLine(t, judgmentY, spawnY); //박자가 변해도 대응 가능
+                _activeGridLines.Add(line);
             }
         }
-
-        //곡 전체 길이만큼 그리드 생성(최적화 전)
-        float totalDuration = 300f; //임시값
-        for (float t = 0; t <= totalDuration; t += intervalTime)
-        {
-            BarLineObject line = NotePoolManager.Instance.GetBarLine();
-            line.InitializeBarLine(t, -2.7f, 10f); //judgmentY, spawnY 전달
-            _activeGridLines.Add(line);
-        }
+        Debug.Log($"[Grid] 총 {_activeGridLines.Count}개의 그리드 생성 완료");
     }
 
     //곡 시간이 바뀌면 그리드 위치 갱신
@@ -71,7 +78,10 @@ public class GridManager : MonoBehaviour
     {
         foreach(var line in _activeGridLines)
         {
-            line.UpdateBarLine(currentTime, noteSpeed);
+            if (line != null && line.gameObject.activeSelf)
+            {
+                line.UpdateBarLine(currentTime, noteSpeed);
+            }
         }
     }
 }

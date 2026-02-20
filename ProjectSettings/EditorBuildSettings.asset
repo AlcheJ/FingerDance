@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00-Scenes/3-SongResult.unity
     guid: 4af7322b4419b6e47bc6fd6c5af0cc41
+  - enabled: 1
+    path: Assets/00-Scenes/4-MapEditor.unity
+    guid: 8a708bee71ed6ad43ad1672983e2fda2
   m_configObjects: {}

@@ -43,6 +43,14 @@ public class NoteObject : MonoBehaviour
             HandleMiss();
         }
     }
+    //에디터에서 HandleMiss를 호출하지 않기 위함
+    public void UpdateNotesForEditor(float currentTime, float noteSpeed)
+    {
+        float distance = (TargetTime - currentTime) * noteSpeed;
+        transform.localPosition = new Vector3(transform.localPosition.x, distance + _currentJudgmentY, 0f);
+        gameObject.SetActive(true); //먼 거리의 노트를 잠시 끌까?
+    }
+
     public void HandleMiss()
     {
         _isHit = true;

@@ -102,7 +102,6 @@ public class GlobalDataManager : MonoBehaviour
     {
         _selectedSong = song;
         _selectedDifficultyIndex = difficulty;
-        // 이후 SceneManager.LoadScene("2-GamePlay") 호출
     }
 
     // 게임 종료 후 결과를 기록

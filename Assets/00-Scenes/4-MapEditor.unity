@@ -686,12 +686,24 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2120666705}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.5
+  m_MaxValue: 4
+  m_WholeNumbers: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1116102545}
+        m_TargetAssemblyTypeName: GridManager, Assembly-CSharp
+        m_MethodName: OnDivisionChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &224483453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,9 +1045,67 @@ Transform:
   - {fileID: 1124692811}
   - {fileID: 1176763591}
   - {fileID: 1116102544}
+  - {fileID: 272108171}
   - {fileID: 307529759}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272108170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272108171}
+  - component: {fileID: 272108172}
+  m_Layer: 0
+  m_Name: Editor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272108171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272108170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 261967165}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272108172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272108170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe760eeea5f95ed48ae4fb7961c99204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scrollSpeed: 0.5
+  _noteSpeed: 8
+  _judgmentY: -2.7
+  _spawnY: 10
+  _laneXPositions:
+  - -2.22
+  - -0.74
+  - 0.74
+  - 2.22
+  _audioSource: {fileID: 764777256}
+  _gridManager: {fileID: 1116102545}
+  _timeDisplayText: {fileID: 725731782}
+  _timelineSlider: {fileID: 1558402253}
 --- !u!1 &293227311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,7 +2147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _shortNotePrefab: {fileID: 5018446518438788938, guid: 23622666d0ef0e24fbfa571760df9d9d, type: 3}
   _longNotePrefab: {fileID: 5662779136872211032, guid: 88d680fbbb15178448ef2cfb0f521bd0, type: 3}
-  _barLinePrefab: {fileID: 5864328290874688012, guid: ee183de80f79ec54ba318c6f761f707d, type: 3}
+  _barLinePrefab: {fileID: 2518932882862109888, guid: a031df252536f9f4dbede53f2281d338, type: 3}
   _shortPoolParent: {fileID: 1700871716}
   _longPoolParent: {fileID: 1642022533}
   _barLinePoolParent: {fileID: 1042417663}
@@ -3966,7 +4036,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 272108172}
+        m_TargetAssemblyTypeName: EditorManager, Assembly-CSharp
+        m_MethodName: OnTimelineSliderChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1595307111
 GameObject:
   m_ObjectHideFlags: 0

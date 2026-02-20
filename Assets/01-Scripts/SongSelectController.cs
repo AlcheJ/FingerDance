@@ -52,9 +52,9 @@ public class SongSelectController : MonoBehaviour
     //GlobalDataManager가 만든 데이터로 UI 리스트 생성
     void RefreshSongList()
     {
-        foreach (Transform child in _contentTransform)
+        for (int i = _contentTransform.childCount - 1; i >= 0; i--)
         {
-            Destroy(child.gameObject);
+            DestroyImmediate(_contentTransform.GetChild(i).gameObject);
         }
         _entryList.Clear(); //기존 UI 제거
 
@@ -89,6 +89,8 @@ public class SongSelectController : MonoBehaviour
     {
         for (int i = 0; i < _entryList.Count; i++)
         {
+            if (_entryList[i] == null) continue;
+
             //현재 인덱스와 일치하면 true 전송
             _entryList[i].SetHighlight(i == _currentSongIndex);
             //난이도를 바꿨을 때 리스트의 왕관도 실시간으로 다시 그려줘야 합니다.
@@ -213,5 +215,33 @@ public class SongSelectController : MonoBehaviour
         _audioSource.clip = null;
 
         SceneManager.LoadScene("2-GamePlay");
+    }
+
+    public void OnEditorButtonClicked()
+    {
+        SetInputLock(true);
+
+        SongMetaData selectedSong = _allSongs[_currentSongIndex];
+        GlobalDataManager.Instance.PrepareGamePlay(selectedSong, _currentDifficultyIndex);
+        SongDataLoader loader = GlobalDataManager.Instance.GetComponent<SongDataLoader>();
+        string chartFile = selectedSong.DifficultyList[_currentDifficultyIndex].ChartFileName;
+
+        //채보 로드
+        SongChartData chart = loader.LoadChartData(chartFile);
+        if(chart == null)
+        {
+            chart = new SongChartData();
+            Debug.Log("[Editor] 새 채보 작성을 시작합니다.");
+        }
+
+        //시간, 마디선 리스트 계산 > 사용할 데이터 주입
+        loader.InitializeChartTimes(selectedSong, chart);
+        GlobalDataManager.Instance.SetCurrentChart(chart);
+
+        if (_previewCoroutine != null) StopCoroutine(_previewCoroutine);
+        _audioSource.Stop();
+        _audioSource.clip = null;
+
+        SceneManager.LoadScene("4-MapEditor");
     }
 }

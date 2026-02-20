@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _shortNotePrefab: {fileID: 5018446518438788938, guid: 23622666d0ef0e24fbfa571760df9d9d, type: 3}
   _longNotePrefab: {fileID: 5662779136872211032, guid: 88d680fbbb15178448ef2cfb0f521bd0, type: 3}
-  _barLinePrefab: {fileID: 5864328290874688012, guid: ee183de80f79ec54ba318c6f761f707d, type: 3}
+  _barLinePrefab: {fileID: 2518932882862109888, guid: a031df252536f9f4dbede53f2281d338, type: 3}
   _shortPoolParent: {fileID: 1700871716}
   _longPoolParent: {fileID: 1642022533}
   _barLinePoolParent: {fileID: 1042417663}
