@@ -4,388 +4,456 @@
             "bar": 0,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 0,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 1,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 1,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 2,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 3,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 4,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
@@ -404,14 +472,14 @@
         {
             "bar": 4,
             "tick": 1080,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 4,
             "tick": 1080,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -433,68 +501,78 @@
             "bar": 4,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 5,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
@@ -513,14 +591,14 @@
         {
             "bar": 5,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 5,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -542,68 +620,78 @@
             "bar": 5,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 5,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 6,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
@@ -651,68 +739,78 @@
             "bar": 6,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 7,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
@@ -759,81 +857,93 @@
         {
             "bar": 7,
             "tick": 1560,
-            "lane": 2,
-            "noteType": "Short"
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1560,
-            "lane": 3,
-            "noteType": "Short"
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 7,
-            "tick": 1800,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
+        {
+            "bar": 7,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
         {
             "bar": 8,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
@@ -846,86 +956,99 @@
             "bar": 8,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1200,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 8,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 9,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
@@ -938,98 +1061,113 @@
             "bar": 9,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1500,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1620,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 9,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 10,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 240,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
@@ -1042,86 +1180,99 @@
             "bar": 10,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 10,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 11,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
@@ -1134,57 +1285,65 @@
             "bar": 11,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1440,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1500,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1620,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 12,
             "tick": 0,
@@ -1203,13 +1362,15 @@
             "bar": 12,
             "tick": 240,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
@@ -1228,14 +1389,16 @@
         {
             "bar": 12,
             "tick": 600,
-            "lane": 0,
-            "noteType": "Short"
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 600,
-            "lane": 3,
-            "noteType": "Short"
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
@@ -1255,51 +1418,58 @@
             "bar": 12,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 13,
             "tick": 0,
@@ -1318,25 +1488,27 @@
             "bar": 13,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 13,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1344,31 +1516,34 @@
             "bar": 13,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 720,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 13,
             "tick": 720,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1376,69 +1551,79 @@
             "bar": 13,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 13,
-            "tick": 1680,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
-            "tick": 1800,
+            "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
+        {
+            "bar": 13,
+            "tick": 1800,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
         {
             "bar": 14,
             "tick": 0,
@@ -1457,20 +1642,15 @@
             "bar": 14,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 14,
-            "tick": 360,
-            "lane": 0,
-            "noteType": "Long",
-            "durationTick": 120
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
@@ -1481,15 +1661,24 @@
         },
         {
             "bar": 14,
+            "tick": 360,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 14,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
@@ -1509,74 +1698,83 @@
             "bar": 14,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1020,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1140,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 14,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 15,
             "tick": 0,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 15,
             "tick": 0,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1584,25 +1782,27 @@
             "bar": 15,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 15,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1610,13 +1810,22 @@
             "bar": 15,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 15,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 120
         },
         {
             "bar": 15,
@@ -1627,46 +1836,45 @@
         },
         {
             "bar": 15,
-            "tick": 720,
-            "lane": 3,
-            "noteType": "Long",
-            "durationTick": 120
-        },
-        {
-            "bar": 15,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 1380,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 15,
@@ -1682,394 +1890,453 @@
             "noteType": "Long",
             "durationTick": 120
         },
-
         {
             "bar": 16,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 16,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 17,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 18,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 240,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 19,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1500,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1740,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 20,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 240,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
@@ -2082,98 +2349,113 @@
             "bar": 20,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1440,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 20,
-            "tick": 1680,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 20,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 21,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
@@ -2186,286 +2468,330 @@
             "bar": 21,
             "tick": 960,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1200,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1440,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 22,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1200,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 23,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1500,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1740,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 23,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 24,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 180,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
@@ -2478,98 +2804,113 @@
             "bar": 24,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1140,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 25,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 180,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
@@ -2582,104 +2923,120 @@
             "bar": 25,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1620,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 26,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 180,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
@@ -2692,98 +3049,113 @@
             "bar": 26,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1140,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 27,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 180,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
@@ -2796,498 +3168,573 @@
             "bar": 27,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1500,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1740,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 28,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1160,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 29,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1140,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 30,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1020,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1140,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 31,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1160,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 32,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 840,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 32,
             "tick": 840,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3295,7 +3742,8 @@
             "bar": 32,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
@@ -3315,19 +3763,20 @@
             "bar": 32,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 1320,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 32,
             "tick": 1320,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3335,68 +3784,78 @@
             "bar": 32,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 33,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
@@ -3416,19 +3875,20 @@
             "bar": 33,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 33,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3436,25 +3896,27 @@
             "bar": 33,
             "tick": 1140,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 33,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3462,68 +3924,78 @@
             "bar": 33,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 34,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
@@ -3543,14 +4015,8 @@
             "bar": 34,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 34,
-            "tick": 1080,
-            "lane": 1,
-            "noteType": "Long",
-            "durationTick": 120
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
@@ -3561,9 +4027,17 @@
         },
         {
             "bar": 34,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 34,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
@@ -3583,68 +4057,78 @@
             "bar": 34,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 35,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
@@ -3664,7 +4148,8 @@
             "bar": 35,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
@@ -3684,13 +4169,15 @@
             "bar": 35,
             "tick": 1140,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
@@ -3710,74 +4197,85 @@
             "bar": 35,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1620,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 36,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
@@ -3797,7 +4295,8 @@
             "bar": 36,
             "tick": 960,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
@@ -3817,19 +4316,20 @@
             "bar": 36,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 1320,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 36,
             "tick": 1320,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3837,80 +4337,90 @@
             "bar": 36,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 37,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 840,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 37,
             "tick": 840,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3918,7 +4428,8 @@
             "bar": 37,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
@@ -3938,25 +4449,27 @@
             "bar": 37,
             "tick": 1140,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 37,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3964,80 +4477,90 @@
             "bar": 37,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 38,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 840,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 38,
             "tick": 840,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4045,14 +4568,8 @@
             "bar": 38,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 38,
-            "tick": 1080,
-            "lane": 1,
-            "noteType": "Long",
-            "durationTick": 120
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
@@ -4063,9 +4580,17 @@
         },
         {
             "bar": 38,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 120
+        },
+        {
+            "bar": 38,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
@@ -4085,116 +4610,134 @@
             "bar": 38,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 38,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 39,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 39,
@@ -4203,1859 +4746,2147 @@
             "noteType": "Long",
             "durationTick": 120
         },
-
         {
             "bar": 40,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 41,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 42,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 660,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1140,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1200,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1620,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 42,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 43,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 480,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 660,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1140,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1620,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 44,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 120,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 960,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 44,
-            "tick": 1080,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 44,
+            "tick": 1080,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1680,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 45,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 660,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 960,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 45,
-            "tick": 1080,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 45,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1440,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 45,
-            "tick": 1560,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 45,
+            "tick": 1560,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 46,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 360,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 46,
-            "tick": 1320,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 46,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1560,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 47,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 960,
             "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 47,
-            "tick": 1080,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 47,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1200,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1560,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 47,
-            "tick": 1680,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 47,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1800,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 48,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
-        },
-
-        {
-            "bar": 49,
-            "tick": 0,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 49,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 360,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
-        },
-
-        {
-            "bar": 50,
-            "tick": 0,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 50,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 480,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 840,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 50,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 51,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 360,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 51,
-            "tick": 840,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 51,
-            "tick": 1320,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1440,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 52,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 360,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 600,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 720,
             "lane": 3,
-            "noteType": "Short"
-        },
-        {
-            "bar": 52,
-            "tick": 840,
-            "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 840,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 960,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 52,
-            "tick": 1440,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 53,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 360,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 480,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1080,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1200,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1320,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1560,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1680,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 1800,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 54,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 0,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 120,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 360,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 480,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 600,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 54,
-            "tick": 840,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 54,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1200,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 55,
             "tick": 0,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 55,
-            "tick": 360,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 55,
+            "tick": 360,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 600,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 720,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 55,
-            "tick": 840,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 840,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 55,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 960,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1080,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1320,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1560,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1680,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
-        },
-
-        {
-            "bar": 56,
-            "tick": 0,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 0,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 240,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 360,
             "lane": 2,
-            "noteType": "Short"
-        },
-        {
-            "bar": 56,
-            "tick": 480,
-            "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 480,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 600,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 720,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 840,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 840,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 960,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1080,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1080,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1200,
             "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 56,
-            "tick": 1320,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 1320,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 1440,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1440,
             "lane": 0,
-            "noteType": "Short"
-        },
-        {
-            "bar": 56,
-            "tick": 1440,
-            "lane": 1,
-            "noteType": "Short"
-        },
-        {
-            "bar": 56,
-            "tick": 1680,
-            "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1680,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1800,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1800,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
-
         {
             "bar": 57,
             "tick": 120,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 120,
             "lane": 1,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 240,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 240,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 480,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
             "tick": 720,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 57,
@@ -6070,6 +6901,13 @@
             "lane": 2,
             "noteType": "Long",
             "durationTick": 1920
+        },
+        {
+            "bar": 0,
+            "tick": 240,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
         }
     ]
 }

@@ -28,6 +28,16 @@ public class NoteData
     public int Lane => lane;
     public int DurationTick => durationTick;
 
+    //[에디터]노트 찍을 때 값 채워넣기용
+    public NoteData(NoteType type, int lane, int bar, int tick, int durationTick)
+    {
+        this.noteType = type.ToString(); // Enum을 문자열로 저장
+        this.lane = lane;
+        this.bar = bar;
+        this.tick = (int)tick;
+        this.durationTick = durationTick;
+    }
+
     public NoteType Type
     {
         get

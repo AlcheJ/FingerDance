@@ -184,7 +184,7 @@ public class NoteSpawner : MonoBehaviour
 
         if(bar != null)
         {
-            bar.InitializeBarLine(targetTime, _judgmentY, _spawnY);
+            bar.InitializeBarLine(targetTime, _judgmentY, _spawnY, true);
             _activeBarLines.Add(bar);
         }
     }

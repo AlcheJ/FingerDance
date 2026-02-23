@@ -116,7 +116,7 @@ public class LongNoteObject : NoteObject
         if (currentTime >= _endTime - ReleaseGraceTime)
         {
             // "적당히 끝까지 잘 눌렀구나!"라고 인정해 줍니다.
-            Debug.Log("<color=cyan>롱노트 유예 합격!</color>");
+            Debug.Log("롱노트 유예 합격!");
             OnLongNoteComplete(); // 정산 로직이 포함된 기존 성공 함수 호출
         }
         else

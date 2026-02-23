@@ -66,7 +66,9 @@ public class GridManager : MonoBehaviour
             {
                 float t = barStartTime + (measureDuration * j / linesInThisBar);
                 BarLineObject line = NotePoolManager.Instance.GetBarLine();
-                line.InitializeBarLine(t, judgmentY, spawnY); //박자가 변해도 대응 가능
+
+                bool isMajor = (j == 0); //마디의 시작이라는 뜻
+                line.InitializeBarLine(t, judgmentY, spawnY, isMajor); //박자가 변해도 대응 가능
                 _activeGridLines.Add(line);
             }
         }
@@ -78,10 +80,19 @@ public class GridManager : MonoBehaviour
     {
         foreach(var line in _activeGridLines)
         {
-            if (line != null && line.gameObject.activeSelf)
-            {
-                line.UpdateBarLine(currentTime, noteSpeed);
-            }
+            if (line == null) continue;
+
+            if (!line.gameObject.activeSelf) line.gameObject.SetActive(true);
+            line.UpdateBarLine(currentTime, noteSpeed); //(수정)그리드 활성 유무 무관하게 업데이트
+            //float dist = Mathf.Abs(line._targetTime - currentTime); //전후 2초만 그리드 표시
         }
+    }
+
+    //[에디터]그리드에 맞는 틱 간격 반환
+    public int GetCurrentGridTick()
+    {
+        //공식: (resolution * 4분음표) / division
+        var meta = GlobalDataManager.Instance.SelectedSong;
+        return (meta.Resolution * 4) / _currentDivision;
     }
 }

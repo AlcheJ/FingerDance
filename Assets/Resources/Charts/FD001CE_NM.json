@@ -6,6 +6,41 @@
             "lane": 0,
             "noteType": "Long",
             "durationTick": 1920
+        },
+        {
+            "bar": 0,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 240
+        },
+        {
+            "bar": 0,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 0,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 0,
+            "tick": 1440,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 0,
+            "tick": 1680,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
         }
     ]
 }
