@@ -11,12 +11,12 @@
     "difficulty": [
         {
             "difficultyType": "Normal",
-            "level": 1,
+            "level": 3,
             "chartFileName": "FD001CE_NM"
         },
         {
             "difficultyType": "Hard",
-            "level": 4,
+            "level": 9,
             "chartFileName": "FD001CE_HD"
         }
     ],

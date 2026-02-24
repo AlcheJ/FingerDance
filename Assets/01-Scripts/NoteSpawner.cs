@@ -182,9 +182,9 @@ public class NoteSpawner : MonoBehaviour
         Debug.Log($"{_barIndex}번 마디선 소환 시도!");
         BarLineObject bar = NotePoolManager.Instance.GetBarLine();
 
-        if(bar != null)
+        if(bar != null) //여기 수정 중
         {
-            bar.InitializeBarLine(targetTime, _judgmentY, _spawnY, true);
+            bar.InitializeBarLine(targetTime, _judgmentY, _spawnY, true, _barIndex);
             _activeBarLines.Add(bar);
         }
     }

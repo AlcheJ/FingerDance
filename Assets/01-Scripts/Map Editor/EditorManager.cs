@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class EditorManager : MonoBehaviour
 {
     [Header("에디터 기본 설정")]
-    [SerializeField] private float _scrollSpeed = 0.5f; //휠 1칸당 이동할 시간
+    [SerializeField] private float _wheelSensitivity = 0.15f; //휠 1칸당 이동할 시간
     [SerializeField] private float _noteSpeed = 8f; //인게임과 동일한 배속
     [SerializeField] private float _judgmentY = -2.7f;
     [SerializeField] private float _spawnY = 10f;
@@ -88,6 +88,8 @@ public class EditorManager : MonoBehaviour
         {
             _currentTime = _audioSource.time;
             _timelineSlider.value = _currentTime;
+
+            UpdateEditVisuals(); //에디터 내 재생 중에도 실시간 갱신
         }
         else
         {
@@ -95,7 +97,6 @@ public class EditorManager : MonoBehaviour
             if (Mathf.Abs(wheelInput) > 0.01f) { ScrollTime(wheelInput); }
         }
 
-        UpdateEditVisuals(); //스크롤에 따른 시각 요소 동기화
         if (Input.GetKeyDown(KeyCode.Space)) TogglePlayback();
     }
 
@@ -104,15 +105,22 @@ public class EditorManager : MonoBehaviour
     {
         if (_audioSource == null || _audioSource.clip == null) return;
 
-        _currentTime += delta * _scrollSpeed;
+        float nextTime = _currentTime + (delta * _wheelSensitivity * 10f);
+        SetTime(nextTime);
+    }
+
+    public void SetTime(float targetTime)
+    {
+        if (_audioSource.clip == null) return;
         //스크롤 범위 = 0 ~ 곡 최대 길이
-        _currentTime = Mathf.Clamp(_currentTime, 0f, _audioSource.clip.length);
+        _currentTime = Mathf.Clamp(targetTime, 0f, _audioSource.clip.length);
         _audioSource.time = _currentTime; //음악 미재생 시에도 시간 변경
 
-        if (_timeDisplayText != null)
-        {
-            _timeDisplayText.text = _currentTime.ToString("F3");
-        }
+        //SetValueWithoutNotify: 값 변경 이벤트 발생 없이 값만 설정
+        if (_timelineSlider != null) _timelineSlider.SetValueWithoutNotify(_currentTime);
+        if (_timeDisplayText != null) _timeDisplayText.text = _currentTime.ToString("F3");
+        
+        UpdateEditVisuals();
     }
 
     //스페이스 바로 곡 재생 및 일시정지
@@ -167,15 +175,13 @@ public class EditorManager : MonoBehaviour
     //인스펙터 - OnValueChanged
     public void OnTimelineSliderChanged(float value)
     {
-        if (!_isPlaying)
+        if (!_isPlaying && Mathf.Abs(_currentTime - value) > 0.001f)
         {
-            _currentTime = value;
-            _audioSource.time = _currentTime;
-            UpdateEditVisuals();
+            SetTime(value);
         }
     }
 
-    //[에디터]시간과 틱을 서로 변환
+    //시간과 틱을 서로 변환
     public long TimeToTick(float time)
     {
         if (_meta == null) return 0;
@@ -190,13 +196,40 @@ public class EditorManager : MonoBehaviour
         return (tick / (float)_meta.Resolution) * secondsPerBeat;
     }
 
-    //마우스 클릭 시 그 데이터를 생성하고 리스트에 추가
-    public void AddNewNoteFromEditor(NoteType type, int lane, long tick, int duration)
+    //누적 틱에 따라 변박을 고려한 마디 번호와 마디 내 틱을 계산
+    public void GetBarAndInnerTick(long totalTick, out int bar, out int innerTick)
     {
-        //틱 기반으로 마디 번호와 현재 틱 계산
-        int ticksPerMeasure = _meta.Numerator * _meta.Resolution;
-        int bar = (int)(tick / ticksPerMeasure);
-        int innerTick = (int)tick % ticksPerMeasure;
+        bar = 0;
+        innerTick = (int)totalTick;
+
+        var meta = _meta;
+        long currentCumulativeTick = 0;
+        int currentNumerator = meta.Numerator;
+
+        //totaltick이 어느 마디에 속하는지 검색
+        for(int i = 0; i < 5000; i++) //5000마디까지 검사
+        {
+            var sigEvent = meta.TimeSignatures.FindLast(s => s.Bar <= i);
+            if (sigEvent != null) currentNumerator = sigEvent.Numerator;
+
+            long measureLength = (long)currentNumerator * meta.Resolution;
+
+            if(totalTick < currentCumulativeTick + measureLength)
+            {
+                bar = i;
+                innerTick = (int)(totalTick - currentCumulativeTick);
+                return; //마디를 찾고 종료
+            }
+
+            currentCumulativeTick += measureLength;
+        }
+    }
+
+    //마우스 클릭 시 그 데이터를 생성하고 리스트에 추가
+    public void AddNewNoteFromEditor(NoteType type, int lane, long totalTick, int duration)
+    {
+        int bar, innerTick;
+        GetBarAndInnerTick(totalTick, out bar, out innerTick);
 
         if (IsOverlapped(lane, bar, innerTick)) return; //설치 전 체크
         //새 NoteData 객체 생성
@@ -204,7 +237,7 @@ public class EditorManager : MonoBehaviour
 
         float secondsPerBeat = 60f / _meta.Bpm;
         float secondsPerTick = secondsPerBeat / _meta.Resolution;
-        newData.TargetTime = (float)(tick * secondsPerTick);
+        newData.TargetTime = (float)(totalTick * secondsPerTick);
 
         if (type == NoteType.Long) newData.DurationTime = duration * secondsPerTick;
         //데이터 추가
@@ -313,7 +346,7 @@ public class EditorManager : MonoBehaviour
 
         //에디터용 임시 데이터 해제
         GlobalDataManager.Instance.SetCurrentChart(null);
-        GlobalDataManager.Instance.FadeOut(1f, () => {
+        GlobalDataManager.Instance.FadeOut(0.5f, () => {
             SceneManager.LoadScene("1-SongSelect");
         });
     }

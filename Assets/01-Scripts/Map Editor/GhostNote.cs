@@ -24,6 +24,7 @@ public class GhostNote : MonoBehaviour
     public int SnappedLane { get; private set; }
     public long SnappedTick { get; private set; }
     public int SnappedBar { get; private set; }
+    public int SnappedInnerTick { get; private set; }
 
     void Start()
     {
@@ -46,7 +47,7 @@ public class GhostNote : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0)) //마우스 왼쪽 클릭 시
         {
-            if (!_isPlacingLongNote && _editorManager.IsOverlapped(SnappedLane, SnappedBar, SnappedTick))
+            if (!_isPlacingLongNote && _editorManager.IsOverlapped(SnappedLane, SnappedBar, SnappedInnerTick))
             {
                 Debug.LogWarning("이미 자리잡은 노트가 있습니다!");
                 return;
@@ -155,17 +156,21 @@ public class GhostNote : MonoBehaviour
         float mouseTime = (mousePos.y - _editorManager.JudgmentY) / _editorManager.NoteSpeed + _editorManager.CurrentTime;
         SnappedTick = SnapTimeToGrid(mouseTime);
 
-        //현재 틱이 몇 번째 bar에 속하는지 역산(0마디 외에 노트 체크나 삭제 안 되는 현상 방지)
-        int ticksPerMeasure = _editorManager.Meta.Numerator * _editorManager.Meta.Resolution;
-        SnappedBar = (int)(SnappedTick / ticksPerMeasure);
-        int innerTick = (int)(SnappedTick % ticksPerMeasure); //마디 내 틱 위치
+        //변박에 대응하는 계산용 함수 호출
+        int bar;
+        int innerTick;
+        _editorManager.GetBarAndInnerTick(SnappedTick, out bar, out innerTick);
+
+        SnappedBar = bar;
+        SnappedInnerTick = innerTick;
+        
         //고스트 노트의 틱을 시간으로 바꿈
         float finalY = (_editorManager.TickToTime(SnappedTick) - _editorManager.CurrentTime) * _editorManager.NoteSpeed + _editorManager.JudgmentY;
         transform.localPosition = new Vector3(closestX, finalY, 0);
 
         if(Input.GetMouseButtonDown(1) && !_isPlacingLongNote)
         {
-            _editorManager.RemoveNote(SnappedLane, SnappedBar, innerTick);
+            _editorManager.RemoveNote(SnappedLane, SnappedBar, SnappedInnerTick);
         }
     }
 

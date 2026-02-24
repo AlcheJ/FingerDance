@@ -11,22 +11,30 @@ public class SongSelectController : MonoBehaviour
     [SerializeField] private SongInfoView _infoView;
     [SerializeField] private AudioSource _audioSource;
 
-    // 생성된 UI 스크립트들을 담아둘 리스트(인덱스 접근용)
+    [Header("정렬 화살표")]
+    [SerializeField] private GameObject[] _upArrows;
+    [SerializeField] private GameObject[] _downArrows;
+
+    //생성된 UI 스크립트들을 담아둘 리스트(인덱스 접근용)
     private List<SongEntry> _entryList = new List<SongEntry>();
     private List<SongMetaData> _allSongs;
     private int _currentSongIndex = 0;
     private int _currentDifficultyIndex = 0;
 
-    // 프리뷰 변수들
+    //프리뷰 변수들
     private Coroutine _previewCoroutine;
     private float _baseVolume;
     private const float PreviewDelay = 0.5f;
     private const float LoopDuration = 15.0f;
     private const float FadeDuration = 1.0f;
 
-    // 팝업창
+    //팝업창
     private bool _isInputLocked = false;
     public void SetInputLock(bool isLocked) => _isInputLocked = isLocked;
+
+    //곡 정렬
+    private int _lastSortMode = 0;
+    private bool _isAscending = true; //오름차순(낮은순)
 
     private void Awake()
     {
@@ -40,6 +48,10 @@ public class SongSelectController : MonoBehaviour
         RefreshSongList();
         PlayPreview();
         GlobalDataManager.Instance.FadeIn(1.5f);
+
+        _lastSortMode = 0;
+        _isAscending = true;
+        UpdateSortArrows();
     }
 
     private void Update()
@@ -215,6 +227,71 @@ public class SongSelectController : MonoBehaviour
         _audioSource.clip = null;
 
         SceneManager.LoadScene("2-GamePlay");
+    }
+
+    //곡 정렬 기준에 맞는 화살표 활성화
+    void UpdateSortArrows()
+    {
+        if (_upArrows == null || _upArrows.Length == 0) return;
+        if (_downArrows == null || _downArrows.Length == 0) return;
+
+        for (int i = 0; i < _upArrows.Length; i++)
+        {
+            _upArrows[i].SetActive(false);
+            _downArrows[i].SetActive(false);
+        }
+
+        //_lastSortMode가 배열 범위를 벗어나지 않았는지 확인
+        if (_lastSortMode >= 0 && _lastSortMode < _upArrows.Length)
+        {
+            if (_isAscending)
+            {
+                if (_upArrows[_lastSortMode] != null) _upArrows[_lastSortMode].SetActive(true);
+            }
+            else
+            {
+                if (_downArrows[_lastSortMode] != null) _downArrows[_lastSortMode].SetActive(true);
+            }
+        }
+    }
+
+    public void SortSongs(int modeIndex)
+    {
+        if (_lastSortMode == modeIndex)
+        {
+            _isAscending = !_isAscending; //방향 반전
+        }
+        else
+        {
+            _lastSortMode = modeIndex;
+            _isAscending = true; //새로운 버튼이면 오름차순부터
+        }
+
+        string currentID = _allSongs[_currentSongIndex].SongID;
+
+        switch(modeIndex)
+        {
+            case 0: //기본(곡 ID 순)
+                if (_isAscending) _allSongs.Sort((a, b) => a.SongID.CompareTo(b.SongID));
+                else _allSongs.Sort((a, b) => b.SongID.CompareTo(a.SongID));
+                break;
+            case 1: //곡명 순
+                if (_isAscending) _allSongs.Sort((a, b) => a.SongTitle.CompareTo(b.SongTitle));
+                else _allSongs.Sort((a, b) => b.SongTitle.CompareTo(a.SongTitle));
+                break;
+            case 2: //NM 레벨 순
+                if (_isAscending) _allSongs.Sort((a, b) => a.DifficultyList[0].Level.CompareTo(b.DifficultyList[0].Level));
+                else _allSongs.Sort((a, b) => b.DifficultyList[0].Level.CompareTo(a.DifficultyList[0].Level));
+                break;
+            case 3: //HD 레벨 순
+                if (_isAscending) _allSongs.Sort((a, b) => a.DifficultyList[1].Level.CompareTo(b.DifficultyList[1].Level));
+                else _allSongs.Sort((a, b) => b.DifficultyList[1].Level.CompareTo(a.DifficultyList[1].Level));
+                break;
+        }
+
+        UpdateSortArrows();
+        _currentSongIndex = _allSongs.FindIndex(s => s.SongID == currentID);
+        RefreshSongList();
     }
 
     public void OnEditorButtonClicked()

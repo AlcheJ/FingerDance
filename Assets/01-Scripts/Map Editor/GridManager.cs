@@ -68,7 +68,7 @@ public class GridManager : MonoBehaviour
                 BarLineObject line = NotePoolManager.Instance.GetBarLine();
 
                 bool isMajor = (j == 0); //마디의 시작이라는 뜻
-                line.InitializeBarLine(t, judgmentY, spawnY, isMajor); //박자가 변해도 대응 가능
+                line.InitializeBarLine(t, judgmentY, spawnY, isMajor, i); //박자가 변해도 대응 가능
                 _activeGridLines.Add(line);
             }
         }

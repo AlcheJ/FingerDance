@@ -81,7 +81,6 @@
     <Compile Include="Assets\01-Scripts\SongChartData.cs" />
     <Compile Include="Assets\01-Scripts\SongSelectController.cs" />
     <Compile Include="Assets\01-Scripts\Map Editor\GhostNote.cs" />
-    <Compile Include="Assets\01-Scripts\Map Editor\EditorTimeline.cs" />
     <Compile Include="Assets\01-Scripts\SongInfoView.cs" />
     <Compile Include="Assets\01-Scripts\NoteSpawner.cs" />
     <Compile Include="Assets\01-Scripts\NotePoolManager.cs" />
