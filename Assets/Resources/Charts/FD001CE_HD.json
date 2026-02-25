@@ -9,13 +9,6 @@
         },
         {
             "bar": 0,
-            "tick": 0,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 0,
             "tick": 120,
             "lane": 1,
             "noteType": "Short",
@@ -472,14 +465,14 @@
         {
             "bar": 4,
             "tick": 1080,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 4,
             "tick": 1080,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -591,14 +584,14 @@
         {
             "bar": 5,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 5,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -857,14 +850,14 @@
         {
             "bar": 7,
             "tick": 1560,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1560,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -885,14 +878,14 @@
         {
             "bar": 7,
             "tick": 1800,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 7,
             "tick": 1800,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1389,14 +1382,14 @@
         {
             "bar": 12,
             "tick": 600,
-            "lane": 3,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 12,
             "tick": 600,
-            "lane": 0,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1501,14 +1494,14 @@
         {
             "bar": 13,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 13,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1536,14 +1529,14 @@
         {
             "bar": 13,
             "tick": 720,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 13,
             "tick": 720,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1599,14 +1592,14 @@
         {
             "bar": 13,
             "tick": 1680,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 13,
             "tick": 1680,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1823,14 +1816,14 @@
         {
             "bar": 15,
             "tick": 720,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 15,
             "tick": 720,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -1879,14 +1872,14 @@
         {
             "bar": 15,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 15,
             "tick": 1680,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -2390,14 +2383,14 @@
         {
             "bar": 20,
             "tick": 1680,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 20,
             "tick": 1680,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3769,14 +3762,14 @@
         {
             "bar": 32,
             "tick": 1320,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 32,
             "tick": 1320,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3881,14 +3874,14 @@
         {
             "bar": 33,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 33,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -3909,14 +3902,14 @@
         {
             "bar": 33,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 33,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4021,14 +4014,14 @@
         {
             "bar": 34,
             "tick": 1080,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 34,
             "tick": 1080,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4322,14 +4315,14 @@
         {
             "bar": 36,
             "tick": 1320,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 36,
             "tick": 1320,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4413,14 +4406,14 @@
         {
             "bar": 37,
             "tick": 840,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 37,
             "tick": 840,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4462,14 +4455,14 @@
         {
             "bar": 37,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 37,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4553,14 +4546,14 @@
         {
             "bar": 38,
             "tick": 840,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 38,
             "tick": 840,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -4574,14 +4567,14 @@
         {
             "bar": 38,
             "tick": 1080,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 120
         },
         {
             "bar": 38,
             "tick": 1080,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 120
         },
@@ -5386,14 +5379,14 @@
         {
             "bar": 45,
             "tick": 1080,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1080,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -5407,14 +5400,14 @@
         {
             "bar": 45,
             "tick": 1320,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1320,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -5428,14 +5421,14 @@
         {
             "bar": 45,
             "tick": 1560,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 1560,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -5519,14 +5512,14 @@
         {
             "bar": 46,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -5708,14 +5701,14 @@
         {
             "bar": 47,
             "tick": 1680,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 1680,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -5743,14 +5736,14 @@
         {
             "bar": 49,
             "tick": 0,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 0,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6058,14 +6051,14 @@
         {
             "bar": 51,
             "tick": 840,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 840,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6086,14 +6079,14 @@
         {
             "bar": 51,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 51,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6254,14 +6247,14 @@
         {
             "bar": 52,
             "tick": 1440,
-            "lane": 3,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 52,
             "tick": 1440,
-            "lane": 0,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6289,14 +6282,14 @@
         {
             "bar": 53,
             "tick": 0,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 53,
             "tick": 0,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6478,14 +6471,14 @@
         {
             "bar": 54,
             "tick": 840,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 54,
             "tick": 840,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6569,14 +6562,14 @@
         {
             "bar": 55,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 55,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6681,14 +6674,14 @@
         {
             "bar": 56,
             "tick": 0,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 0,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6786,21 +6779,14 @@
         {
             "bar": 56,
             "tick": 1320,
-            "lane": 3,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 56,
-            "tick": 1320,
             "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 56,
-            "tick": 1440,
-            "lane": 1,
+            "tick": 1320,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6808,6 +6794,13 @@
             "bar": 56,
             "tick": 1440,
             "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 1440,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -6901,13 +6894,6 @@
             "lane": 2,
             "noteType": "Long",
             "durationTick": 1920
-        },
-        {
-            "bar": 0,
-            "tick": 240,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
         }
     ]
 }

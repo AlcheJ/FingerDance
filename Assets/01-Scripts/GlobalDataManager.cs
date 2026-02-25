@@ -9,6 +9,8 @@ public class GlobalDataManager : MonoBehaviour
 {
     [SerializeField] private CanvasGroup _fadeCanvasGroup;
     private bool _isFading = false;
+    private bool _isRestarting = false;
+    public bool IsRestarting { get => _isRestarting; set => _isRestarting = value; }
 
     private List<SongMetaData> _allSongs = new List<SongMetaData>();
     private SongMetaData _selectedSong;

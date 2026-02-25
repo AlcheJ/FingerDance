@@ -39,6 +39,8 @@ public class JudgmentManager : MonoBehaviour
     }
     void Update()
     {
+        if (GlobalDataManager.Instance.CurrentChart == null || _noteSpawner.IsPaused) return;
+
         if (Input.GetKeyDown(KeyCode.E)) { StartLaneInput(0); }
         if (Input.GetKeyDown(KeyCode.R)) { StartLaneInput(1); }
         if (Input.GetKeyDown(KeyCode.O)) { StartLaneInput(2); }

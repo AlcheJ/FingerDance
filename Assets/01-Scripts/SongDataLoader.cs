@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SongDataLoader : MonoBehaviour
@@ -30,8 +30,8 @@ public class SongDataLoader : MonoBehaviour
     // 시간 계산(메타데이터 BPM + 채보 노트 정보)
     public void InitializeChartTimes(SongMetaData meta, SongChartData chart)
     {
-        if (chart == null || chart.Notes == null) return;
-        if (meta.Resolution <= 0) return;
+        if (meta == null || chart == null || chart.Notes == null) return;
+        if (meta.Resolution <= 0 || meta.Bpm <= 0) return;
 
         float secondsPerBeat = 60f / meta.Bpm;
         float secondsPerTick = secondsPerBeat / meta.Resolution;
@@ -39,21 +39,23 @@ public class SongDataLoader : MonoBehaviour
         //각 마디가 시작되는 틱을 담을 딕셔너리
         Dictionary<int, long> barStartTickMap = new Dictionary<int, long>();
 
-        //채보의 마지막 마디를 찾음(여유 8개)
-        int maxBar = 0;
-        foreach (var note in chart.Notes) if (note.Bar > maxBar) maxBar = note.Bar;
-        maxBar += 8;
+        chart.BarLineTimes ??= new List<float>();
+        chart.BarLineTimes.Clear();
 
         long currentCumulativeTick = 0; //Cumulative: 누적되는
         int currentNumerator = meta.Numerator;
+        int maxCalculationBar = 700; //마지막 노트 이후에도 그리드가 보여야 함
 
-        for (int i = 0; i <= maxBar; i++)
+        for (int i = 0; i <= maxCalculationBar; i++)
         {
             //현재 마디(i)에서 변박 여부 확인
-            var sigEvent = meta.TimeSignatures.Find(s => s.Bar == i);
-            if (sigEvent != null) //변박 있으면 변경된 박자 적용
+            if (meta.TimeSignatures != null)
             {
-                currentNumerator = sigEvent.Numerator;
+                var sigEvent = meta.TimeSignatures.Find(s => s.Bar == i);
+                if (sigEvent != null)
+                {
+                    currentNumerator = sigEvent.Numerator; //박자 분자 갱신(예: 4 -> 2)
+                }
             }
 
             //i번째 마디의 시작 지점: 누적된 currentCumulativeTick
@@ -72,6 +74,7 @@ public class SongDataLoader : MonoBehaviour
             if (barStartTickMap.TryGetValue(note.Bar, out long barStartTick))
             {
                 //해당 마디까지 흐른 총 틱수(딕셔너리에서 시작 틱 지점 확인)
+                //판정선에 도달하는 시간 = 최종 틱 * 틱당 시간
                 long totalTicks = barStartTick + note.Tick;
                 note.TargetTime = totalTicks * secondsPerTick;
                 //롱노트 지속시간 계산

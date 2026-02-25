@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 //오브젝트 풀링 방식으로 노트를 (비)활성화
 public class NotePoolManager : MonoBehaviour
@@ -30,27 +29,27 @@ public class NotePoolManager : MonoBehaviour
     }
 
     //노트 생성 단계. 로딩 바에 진행도를 반영하기 위해 Action 매개변수 추가.
-    public void PreparePool(SongChartData chart, Action<float> progressCallback)
+    public void PreparePool(SongMetaData meta, SongChartData chart, float songDuration, Action<float> progressCallback)
     {
         if (chart == null || chart.Notes == null) return;
 
         int shortCount = 0;
         int longCount = 0;
-        int maxBar = 0;
         //foreach문으로 chart.Notes 순회, note.Type에 따라 카운트 증가
         foreach (var note in chart.Notes)
         {
             if (note.Type == NoteType.Short) shortCount++;
             else if (note.Type == NoteType.Long) longCount++;
-
-            //마지막 노트가 속한 마디 번호 탐색
-            if (note.Bar > maxBar) maxBar = note.Bar;
         }
 
-        int totalBarsToCreate = maxBar + 8;
+        //곡 전체 길이에 따른 마디수 계산
+        float secondsPerMeasure = (60f / meta.Bpm) * meta.Numerator;
+        int totalBarsInSong = Mathf.CeilToInt(songDuration / secondsPerMeasure); //올림 처리
+        int totalBarsToCreate = totalBarsInSong + 8;
         int totalToCreate = (shortCount + 5) + (longCount + 5) + totalBarsToCreate;
         int currentCreated = 0;
         
+        //일반노트, 롱노트, 마디선 생성
         for (int i = 0; i < shortCount + 5; i++) //5개는 여유분
         {
             CreateNotes(NoteType.Short);

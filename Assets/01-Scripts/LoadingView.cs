@@ -56,6 +56,16 @@ public class LoadingView : MonoBehaviour
 
     IEnumerator StartLoadingCo()
     {
+        //일시정지 후 재시작할 때
+        bool isRestart = GlobalDataManager.Instance.IsRestarting;
+
+        if (isRestart)
+        {
+            _canvasGroup.alpha = 0f;
+            _canvasGroup.blocksRaycasts = false; //패널 안 끄고도 클릭할 수 있게 설정
+        }
+        else { _canvasGroup.alpha = 1f; }
+
         var meta = GlobalDataManager.Instance.SelectedSong;
         int diffIndex = GlobalDataManager.Instance.SelectedDifficultyIndex;
 
@@ -73,6 +83,7 @@ public class LoadingView : MonoBehaviour
 
         //음원 로드(10%)
         AudioClip musicClip = Resources.Load<AudioClip>($"Sounds/{meta.AudioFileName}");
+        float duration = musicClip.length;
         if (musicClip == null)
         {
             Debug.LogError($"[Loading] 음원을 찾을 수 없습니다: Sounds/{meta.AudioFileName}");
@@ -90,20 +101,31 @@ public class LoadingView : MonoBehaviour
         /// 클래스 간 결합도를 낮추고 코드 재사용성을 높이며,
         /// Action<>은 이를 간편화한 것.
         /// [/summary]
-        NotePoolManager.Instance.PreparePool(chart, (ratio) =>
+        NotePoolManager.Instance.PreparePool(meta, chart, duration, (ratio) =>
         {
-            _loadingBar.value = 0.2f + (ratio * 0.8f);
+            _loadingBar.value = 0.3f + (ratio * 0.7f);
         });
-       
-        _loadingBar.value = 1f; //이 시점에서 로딩 완료
-        yield return new WaitForSeconds(0.1f);
-        StartCoroutine(FadeOutCo(chart, musicClip));
+
+        //로딩이 완료된 시점에 플래그 초기화
+        if (isRestart)
+        {
+            GlobalDataManager.Instance.FadeIn(1.0f);
+            GlobalDataManager.Instance.IsRestarting = false;
+            yield return new WaitForSeconds(2.5f);
+            _noteSpawner.StartGame(GlobalDataManager.Instance.CurrentChart, musicClip);
+        }
+        else
+        {
+            //일반 진입 시에는 기존의 1.0f 바 채우기 및 페이드 아웃 진행
+            _loadingBar.value = 1f;
+            StartCoroutine(FadeOutCo(chart, musicClip));
+        }
     }
 
     //로딩 완료 시 실행할 페이드아웃 코루틴
     public IEnumerator FadeOutCo(SongChartData chart, AudioClip clip)
     {
-        float duration = 0.5f;
+        float duration = 0.8f;
         float elapsed = 0f;
         while(elapsed < duration)
         {

@@ -44,7 +44,7 @@ public class NoteObject : MonoBehaviour
         }
     }
     //에디터에서 HandleMiss를 호출하지 않기 위함
-    public void UpdateNotesForEditor(float currentTime, float noteSpeed)
+    public virtual void UpdateNotesForEditor(float currentTime, float noteSpeed)
     {
         float distance = (TargetTime - currentTime) * noteSpeed;
         transform.localPosition = new Vector3(transform.localPosition.x, distance + _currentJudgmentY, 0f);

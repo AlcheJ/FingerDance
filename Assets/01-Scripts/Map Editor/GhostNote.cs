@@ -213,14 +213,18 @@ public class GhostNote : MonoBehaviour
     //롱노트 기둥 미리보기
     void UpdatePillarPreview()
     {
-        //_previewPillar의 크기 = 시작 틱~마우스 커서 틱
-        float startY = (_editorManager.TickToTime(_startTick) - _editorManager.CurrentTime) * _editorManager.NoteSpeed + _editorManager.JudgmentY;
-        float currentY = transform.localPosition.y;
-        float height = currentY - startY;
+        float currentFinalSpeed = _editorManager.NoteSpeed;
+        
+        long diffTicks = SnappedTick - _startTick; //(현재 마우스 위치) - (머리 위치)
+        float durationSeconds = _editorManager.TickToTime(diffTicks);
+
+        //(시간 * 속도) = 롱노트 기둥 길이
+        float height = durationSeconds * currentFinalSpeed;
 
         if (height > 0)
         {
-            _previewPillar.transform.localPosition = new Vector3(0, -height / 2f, 0); //중심 보정
+            // 만약 기둥이 머리 중앙에서 시작하게 하고 싶다면 Y를 약간만 보정하세요.
+            _previewPillar.transform.localPosition = Vector3.zero;
             _previewPillar.size = new Vector2(_previewPillar.size.x, height);
         }
     }

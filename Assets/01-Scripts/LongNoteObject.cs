@@ -138,4 +138,17 @@ public class LongNoteObject : NoteObject
         _isHolding = false;
         gameObject.SetActive(false);
     }
+
+    //[에디터] 기둥 길이 실시간 재조정
+    public override void UpdateNotesForEditor(float currentTime, float noteSpeed)
+    {
+        base.UpdateNotesForEditor(currentTime, noteSpeed);
+
+        // 기둥의 길이를 현재 에디터의 배속에 맞춰 다시 계산합니다.
+        // 롱노트가 '누르고 있는 상태'가 아닐 때 기둥을 끝까지 다 보여줘야 합니다.
+        if (!_isHolding)
+        {
+            UpdatePillarVisual(noteSpeed);
+        }
+    }
 }
