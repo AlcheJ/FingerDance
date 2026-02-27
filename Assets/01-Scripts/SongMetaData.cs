@@ -25,6 +25,13 @@ public class TimeSignatureEvent //변박에 대응하는 기능
     public int Numerator => numerator;
 }
 
+[System.Serializable]
+public class BpmEventData
+{
+    public long absTick;
+    public float bpm;
+}
+
 [Serializable]
 public class SongMetaData
 {
@@ -39,6 +46,7 @@ public class SongMetaData
     [SerializeField] private string jacketImage;
     [SerializeField] private List<DifficultyInfo> difficulty;
     [SerializeField] private List<TimeSignatureEvent> timeSignatures;
+    [SerializeField] private List<BpmEventData> bpmEvent;
 
     //이하의 프로퍼티는 외부에서 접근해야 하므로 필요
     public string SongID => songID;
@@ -52,4 +60,5 @@ public class SongMetaData
     public string JacketImage => jacketImage;
     public List<DifficultyInfo> DifficultyList => difficulty;
     public List<TimeSignatureEvent> TimeSignatures => timeSignatures;
+    public List<BpmEventData> BpmEvent => bpmEvent;
 }

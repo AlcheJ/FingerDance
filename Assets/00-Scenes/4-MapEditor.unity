@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _divisionSlider: {fileID: 210539838}
-  _editorManager: {fileID: 0}
+  _editorManager: {fileID: 272108172}
 --- !u!1 &1123890593
 GameObject:
   m_ObjectHideFlags: 0

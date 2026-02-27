@@ -8,6 +8,14 @@ using UnityEngine.SceneManagement;
 //채보 에디터의 기능 총괄
 public class EditorManager : MonoBehaviour
 {
+    struct TempoNode
+    {
+        public long absTick;
+        public double startTime;
+        public float bpm;
+    }
+    private List<TempoNode> _tempoMap = new List<TempoNode>();
+
     [Header("에디터 기본 설정")]
     [SerializeField] private float _wheelSensitivity = 0.15f; //휠 1칸당 이동할 시간
     [SerializeField] private float _noteSpeed = 8f; //인게임과 동일한 배속
@@ -47,6 +55,9 @@ public class EditorManager : MonoBehaviour
         }
 
         _meta = GlobalDataManager.Instance.SelectedSong;
+        BuildTempoMap();
+        Debug.Log($"[Editor] 템포 맵 빌드 완료. 노드 개수: {_tempoMap.Count}");
+        
         AudioClip music = Resources.Load<AudioClip>($"Sounds/{_meta.AudioFileName}");
         if (music != null)
         {
@@ -98,6 +109,33 @@ public class EditorManager : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Space)) TogglePlayback();
+    }
+
+    public void BuildTempoMap()
+    {
+        _tempoMap.Clear();
+        _tempoMap.Add(new TempoNode { absTick = 0, startTime = 0, bpm = _meta.Bpm });
+
+        if (_meta.BpmEvent != null && _meta.BpmEvent.Count > 0)
+        {
+            // 틱 순서대로 정렬
+            _meta.BpmEvent.Sort((a, b) => a.absTick.CompareTo(b.absTick));
+
+            foreach (var ev in _meta.BpmEvent)
+            {
+                TempoNode last = _tempoMap[_tempoMap.Count - 1];
+                long tickDelta = ev.absTick - last.absTick;
+                // 이전 노드의 BPM으로 흐른 시간 계산
+                double duration = (double)tickDelta / _meta.Resolution * (60.0 / last.bpm);
+
+                _tempoMap.Add(new TempoNode
+                {
+                    absTick = ev.absTick,
+                    startTime = last.startTime + duration,
+                    bpm = ev.bpm
+                });
+            }
+        }
     }
 
     //마우스 휠에 따른 시간 조작
@@ -198,16 +236,37 @@ public class EditorManager : MonoBehaviour
     //시간과 틱을 서로 변환
     public long TimeToTick(float time)
     {
-        if (_meta == null) return 0;
-        //(시간 * BPM * 해상도) / 60
-        return (long)((time * _meta.Bpm * _meta.Resolution) / 60f);
+        if (_meta == null || _tempoMap.Count == 0) return 0;
+
+        TempoNode node = _tempoMap[0];
+        for (int i = _tempoMap.Count - 1; i >= 0; i--)
+        {
+            if (time >= _tempoMap[i].startTime)
+            {
+                node = _tempoMap[i];
+                break;
+            }
+        }
+        double elapsedTime = (double)time - node.startTime;
+        long additionalTicks = (long)((elapsedTime * node.bpm * _meta.Resolution) / 60.0);
+        return node.absTick + additionalTicks;
     }
     public float TickToTime(long tick)
     {
-        if (_meta == null) return 0;
-        //(틱 / 해상도) * (60 / BPM)
-        float secondsPerBeat = 60f / _meta.Bpm;
-        return (tick / (float)_meta.Resolution) * secondsPerBeat;
+        if (_meta == null || _tempoMap.Count == 0) return 0;
+
+        TempoNode node = _tempoMap[0];
+        for (int i = _tempoMap.Count - 1; i >= 0; i--)
+        {
+            if (tick >= _tempoMap[i].absTick)
+            {
+                node = _tempoMap[i];
+                break;
+            }
+        }
+        long elapsedTicks = tick - node.absTick;
+        double additionalTime = (double)elapsedTicks / _meta.Resolution * (60.0 / node.bpm);
+        return (float)(node.startTime + additionalTime);
     }
 
     //누적 틱에 따라 변박을 고려한 마디 번호와 마디 내 틱을 계산
@@ -249,11 +308,10 @@ public class EditorManager : MonoBehaviour
         //새 NoteData 객체 생성
         NoteData newData = new NoteData(type, lane, bar, innerTick, duration);
 
-        float secondsPerBeat = 60f / _meta.Bpm;
-        float secondsPerTick = secondsPerBeat / _meta.Resolution;
-        newData.TargetTime = (float)(totalTick * secondsPerTick);
+        newData.AbsoluteTick = totalTick;
+        newData.TargetTime = TickToTime(totalTick);
 
-        if (type == NoteType.Long) newData.DurationTime = duration * secondsPerTick;
+        if (type == NoteType.Long) newData.DurationTime = TickToTime(totalTick + duration) - newData.TargetTime;
         //데이터 추가
         var chart = GlobalDataManager.Instance.CurrentChart;
         chart.Notes.Add(newData);

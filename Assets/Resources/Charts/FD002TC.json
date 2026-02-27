@@ -8,6 +8,21 @@
     "previewStartTime": 59.61,
     "audioFileName": "S_FD002TC",
     "jacketImage": "J_FD002TC",
+    "timeSignatures": [],
+    "bpmEvent": [
+        {
+            "absTick": 123840,
+            "bpm": 153
+        },
+        {
+            "absTick": 131520,
+            "bpm": 140
+        },
+        {
+            "absTick": 132480,
+            "bpm": 153
+        }
+    ],
     "difficulty": [
         {
             "difficultyType": "Normal",

@@ -214,9 +214,10 @@ public class GhostNote : MonoBehaviour
     void UpdatePillarPreview()
     {
         float currentFinalSpeed = _editorManager.NoteSpeed;
-        
-        long diffTicks = SnappedTick - _startTick; //(현재 마우스 위치) - (머리 위치)
-        float durationSeconds = _editorManager.TickToTime(diffTicks);
+
+        float startTime = _editorManager.TickToTime(_startTick);
+        float endTime = _editorManager.TickToTime(SnappedTick);
+        float durationSeconds = endTime - startTime;
 
         //(시간 * 속도) = 롱노트 기둥 길이
         float height = durationSeconds * currentFinalSpeed;

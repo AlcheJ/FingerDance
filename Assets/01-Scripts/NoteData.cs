@@ -21,6 +21,7 @@ public class NoteData
 
     public float TargetTime { get; set; } //판정선에 닿기 시작하는 시간
     public float DurationTime { get; set; } //롱노트 유지 시간
+    public long AbsoluteTick { get; set; } //json에는 저장하지 않는 게임용 변수
 
     //이하의 프로퍼티는 외부에서 접근해야 하므로 필요
     public int Bar => bar;

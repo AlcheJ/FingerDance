@@ -14,6 +14,8 @@ public class GridManager : MonoBehaviour
     private readonly int[] _divisions = { 8, 12, 16, 24, 32 };
     private int _currentDivision = 8;
 
+    [SerializeField] private EditorManager _editorManager;
+
     //EditorManager에서 받은 값을 기억
     private float _cachedJudgmentY;
     private float _cachedSpawnY;
@@ -21,6 +23,18 @@ public class GridManager : MonoBehaviour
     //현재 표시 중인 그리드들(마디선 재활용)
     private List<BarLineObject> _activeGridLines = new List<BarLineObject>();
 
+    void Awake()
+    {
+        if (_editorManager == null)
+        {
+            _editorManager = FindObjectOfType<EditorManager>();
+
+            if (_editorManager == null)
+            {
+                Debug.LogError("[GridManager] EditorManager를 씬에서 찾을 수 없습니다!");
+            }
+        }
+    }
     //슬라이더 직접 드래그 시 호출(Inspector의 Dynamic float에 연결)
     public void OnDivisionChanged(float value)
     {
@@ -48,23 +62,48 @@ public class GridManager : MonoBehaviour
 
         //곡 정보
         var meta = GlobalDataManager.Instance.SelectedSong;
+        var chart = GlobalDataManager.Instance.CurrentChart;
         var barTimes = GlobalDataManager.Instance.CurrentChart.BarLineTimes;
+        
+        Dictionary<int, long> barStartTickMap = new Dictionary<int, long>();
+        long cumulativeTick = 0;
+        int currentNumerator = meta.Numerator;
 
-        for (int i = 0; i < barTimes.Count - 1; i++)
+        //마디선 시간 리스트의 개수만큼 루프를 돌며 각 마디의 시작 틱을 기록합니다.
+        for (int i = 0; i < chart.BarLineTimes.Count; i++)
         {
-            float barStartTime = barTimes[i];
-            float barEndTime = barTimes[i + 1];
+            //변박 확인 - SongDataLoader와 동일한 로직이어야 함
+            var sigEvent = meta.TimeSignatures?.FindLast(s => s.Bar <= i);
+            if (sigEvent != null) currentNumerator = sigEvent.Numerator;
+
+            barStartTickMap[i] = cumulativeTick;
+            cumulativeTick += (long)currentNumerator * meta.Resolution;
+        }
+
+        for (int i = 0; i < barStartTickMap.Count - 1; i++)
+        {
+            long currentBarStartTick = barStartTickMap[i];
+            long nextBarStartTick = barStartTickMap[i + 1];
+
+            float barStartTime = _editorManager.TickToTime(currentBarStartTick);
+            float barEndTime = _editorManager.TickToTime(nextBarStartTick);
             float measureDuration = barEndTime - barStartTime;
 
             int numerator = meta.Numerator;
-            var sigEvent = meta.TimeSignatures.FindLast(s => s.Bar <= i);
+            var sigEvent = meta.TimeSignatures?.FindLast(s => s.Bar <= i);
             if (sigEvent != null) numerator = sigEvent.Numerator;
 
+            //분할할 선의 개수
             int linesInThisBar = Mathf.RoundToInt(_currentDivision * (numerator / 4f));
 
             for (int j = 0; j < linesInThisBar; j++)
             {
-                float t = barStartTime + (measureDuration * j / linesInThisBar);
+                //정밀한 틱 위치 계산(정수 오차 방지)
+                long gridTickOffset = (long)Mathf.Round((j * (float)numerator * meta.Resolution) / linesInThisBar);
+                long targetTick = currentBarStartTick + gridTickOffset;
+
+                //최종 위치 시간 변환
+                float t = _editorManager.TickToTime(targetTick);
                 BarLineObject line = NotePoolManager.Instance.GetBarLine();
 
                 bool isMajor = (j == 0); //마디의 시작이라는 뜻

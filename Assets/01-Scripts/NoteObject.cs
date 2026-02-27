@@ -11,6 +11,8 @@ public class NoteObject : MonoBehaviour
     protected float _currentJudgmentY; // 스포너로부터 전달받을 판정선 높이
     private int _lane;
     private bool _isHit = false; //이미 처리된 노트인지 확인(중복 판정 방지)
+    protected NoteData _data;
+    protected EditorManager _editorManager;
 
     public float TargetTime => _targetTime;
     public int Lane => _lane;
@@ -20,8 +22,15 @@ public class NoteObject : MonoBehaviour
         protected set => _isHit = value;
     }
 
+    void Awake()
+    {
+        //에디터 매니저를 찾아서 할당(성능을 위해 Awake에서 미리 찾아둡니다)
+        _editorManager = FindObjectOfType<EditorManager>();
+    }
+
     public virtual void InitializeNotes(NoteData data, float judgmentY)
     {
+        _data = data;
         _targetTime = data.TargetTime;
         _lane = data.Lane;
         _currentJudgmentY = judgmentY;
@@ -46,9 +55,13 @@ public class NoteObject : MonoBehaviour
     //에디터에서 HandleMiss를 호출하지 않기 위함
     public virtual void UpdateNotesForEditor(float currentTime, float noteSpeed)
     {
-        float distance = (TargetTime - currentTime) * noteSpeed;
+        if (_data == null || _editorManager == null) return;
+
+        float accurateTime = _editorManager.TickToTime(_data.AbsoluteTick);
+
+        float distance = (accurateTime - currentTime) * noteSpeed;
         transform.localPosition = new Vector3(transform.localPosition.x, distance + _currentJudgmentY, 0f);
-        gameObject.SetActive(true); //먼 거리의 노트를 잠시 끌까?
+        gameObject.SetActive(true);
     }
 
     public void HandleMiss()

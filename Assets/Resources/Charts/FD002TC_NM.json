@@ -4,19 +4,1702 @@
             "bar": 0,
             "tick": 0,
             "lane": 0,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 480,
             "lane": 2,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
         },
         {
             "bar": 0,
             "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 1,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 1,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 2,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 2,
+            "tick": 480,
             "lane": 3,
-            "noteType": "Short"
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 2,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 3,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 3,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 3,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 4,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 4,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 4,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 5,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 5,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 5,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 6,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 6,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 6,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 7,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 7,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 7,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 8,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 8,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 8,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 9,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 9,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 10,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 10,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 10,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 11,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 11,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 11,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 12,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 12,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 12,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 13,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 13,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 13,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 14,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 14,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 14,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 15,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 15,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 16,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 16,
+            "tick": 720,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 16,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 16,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 17,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 17,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 17,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 18,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 18,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 18,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 18,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 19,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 19,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 19,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 20,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 20,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 20,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 20,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 21,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 21,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 21,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 21,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 22,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 22,
+            "tick": 240,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 22,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 22,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 23,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 23,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 23,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 24,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 24,
+            "tick": 720,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 24,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 24,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 25,
+            "tick": 720,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 26,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 1080
+        },
+        {
+            "bar": 26,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 1080
+        },
+        {
+            "bar": 26,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 27,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 27,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 27,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 28,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 30,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 1800
+        },
+        {
+            "bar": 31,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 31,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 32,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 32,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 33,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 33,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 34,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 34,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 35,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 35,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 36,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 36,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 37,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 37,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 38,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 38,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 39,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 39,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 39,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 40,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 40,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 41,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 41,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 42,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 42,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 43,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 43,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 44,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 44,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 45,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 45,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 46,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 46,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 46,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 47,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 47,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 47,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 48,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 49,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 3840
+        },
+        {
+            "bar": 52,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 640,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 800,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 52,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 53,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 54,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 54,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 55,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 55,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 55,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 56,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 56,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 56,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 57,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 57,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 57,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 58,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 58,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 58,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 59,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 59,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 59,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 60,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 2280
+        },
+        {
+            "bar": 60,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 60,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 61,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 61,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 61,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 62,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 62,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 62,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 63,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 63,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 63,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 64,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 64,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 64,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 65,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 65,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 65,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 66,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 66,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 66,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 67,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 67,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 67,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 68,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 68,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 68,
+            "tick": 960,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 69,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 69,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 69,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 70,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 2280
+        },
+        {
+            "bar": 70,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 70,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 71,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 71,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 71,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 72,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 840
+        },
+        {
+            "bar": 72,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 72,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 73,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 73,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 73,
+            "tick": 1200,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 74,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 74,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 74,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 75,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 75,
+            "tick": 720,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 75,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 76,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 76,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 76,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 77,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 77,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 77,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 78,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 78,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 79,
+            "tick": 0,
+            "lane": 1,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 79,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 600
+        },
+        {
+            "bar": 79,
+            "tick": 1200,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 80,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 81,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 1320
+        },
+        {
+            "bar": 82,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 82,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 82,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 83,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 83,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 83,
+            "tick": 1200,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 84,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 84,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Long",
+            "durationTick": 2760
+        },
+        {
+            "bar": 84,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 85,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 85,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 85,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 86,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 86,
+            "tick": 480,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 86,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 87,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 87,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 88,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 88,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 88,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 89,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 89,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 89,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 90,
+            "tick": 0,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 90,
+            "tick": 480,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 90,
+            "tick": 960,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 91,
+            "tick": 0,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 91,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 91,
+            "tick": 1200,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 92,
+            "tick": 0,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
         }
     ]
 }
