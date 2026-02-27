@@ -8,6 +8,8 @@
     "previewStartTime": 16.54,
     "audioFileName": "S_FD003SF",
     "jacketImage": "J_FD003SF",
+    "bpmEvent": [],
+    "timeSignatures": [],
     "difficulty": [
         {
             "difficultyType": "Normal",

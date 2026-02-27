@@ -8,18 +8,7 @@
     "previewStartTime": 9.22,
     "audioFileName": "S_FD001CE",
     "jacketImage": "J_FD001CE",
-    "difficulty": [
-        {
-            "difficultyType": "Normal",
-            "level": 3,
-            "chartFileName": "FD001CE_NM"
-        },
-        {
-            "difficultyType": "Hard",
-            "level": 9,
-            "chartFileName": "FD001CE_HD"
-        }
-    ],
+    "bpmEvent": [],
     "timeSignatures": [
         {
             "bar": 0,
@@ -32,6 +21,18 @@
         {
             "bar": 49,
             "numerator": 4
+        }
+    ],
+    "difficulty": [
+        {
+            "difficultyType": "Normal",
+            "level": 1,
+            "chartFileName": "FD001CE_NM"
+        },
+        {
+            "difficultyType": "Hard",
+            "level": 9,
+            "chartFileName": "FD001CE_HD"
         }
     ]
 }

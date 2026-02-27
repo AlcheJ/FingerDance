@@ -62,7 +62,7 @@ public class EditorManager : MonoBehaviour
         //슬라이더의 최대값 = 음악 길이
         if (_audioSource.clip != null)
         {
-            _timelineSlider.maxValue = _audioSource.clip.length;
+            _timelineSlider.maxValue = _audioSource.clip.length - 0.001f;
         }
 
         //에디터 입장 시 그리드 생성
@@ -111,10 +111,24 @@ public class EditorManager : MonoBehaviour
 
     public void SetTime(float targetTime)
     {
-        if (_audioSource.clip == null) return;
-        //스크롤 범위 = 0 ~ 곡 최대 길이
-        _currentTime = Mathf.Clamp(targetTime, 0f, _audioSource.clip.length);
-        _audioSource.time = _currentTime; //음악 미재생 시에도 시간 변경
+        if (_audioSource == null || _audioSource.clip == null) return;
+
+        //슬라이더 값이 최대치가 될 때 게임이 뻗는 현상을 막기 위해 값을 뺌
+        float maxSafeTime = Mathf.Max(0f, _audioSource.clip.length - 0.001f);
+        //스크롤 범위 = 0 ~ 안전범위
+        _currentTime = Mathf.Clamp(targetTime, 0f, maxSafeTime);
+        if (_audioSource.clip != null)
+        {
+            try //음악 미재생 시에도 시간 변경됨
+            {
+                _audioSource.time = _currentTime;
+            }
+            catch (System.Exception e)
+            {
+                //만약의 상황을 대비한 예외 처리(로그만 찍고 넘어감)
+                Debug.LogWarning($"[Editor] Audio Seek Error 방지: {_currentTime} / {e.Message}");
+            }
+        }
 
         //SetValueWithoutNotify: 값 변경 이벤트 발생 없이 값만 설정
         if (_timelineSlider != null) _timelineSlider.SetValueWithoutNotify(_currentTime);
