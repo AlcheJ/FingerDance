@@ -910,8 +910,10 @@ MonoBehaviour:
   m_text: "[\uAC8C\uC784 \uD50C\uB808\uC774]\n\uC870\uC791\uD0A4: E R O P\n\uBC30\uC18D
     \uC870\uC808: 1(\uAC10\uC18D), 2(\uAC00\uC18D)\n\uC77C\uC2DC\uC815\uC9C0 : Esc\n\n[\uC5D0\uB514\uD130
     \uBAA8\uB4DC]\n\uB178\uD2B8 \uC885\uB958: 1(\uC77C\uBC18), 2(\uB871\uB178\uD2B8)\n\uACE1
-    \uC7AC\uC0DD/\uC815\uC9C0 : Space Bar\n\n*\uC120\uACE1 \uCC3D\uC758 3\uACE1\uC740
-    \uBAA8\uB450 \uC790\uC791\uACE1\uC774\uACE0,\n\uD0C0\uC774\uD2C0/\uACB0\uACFC\uCC3D
+    \uC7AC\uC0DD/\uC815\uC9C0 : Space Bar\n*\uBE4C\uB4DC \uD6C4\uC5D0\uB294 \uC800\uC7A5\uC744
+    \uB20C\uB7EC\uB3C4 \uC801\uC6A9\uB418\uC9C0 \uC54A\uC74C\n\uAC1C\uBC1C\uC790\uB294
+    \uC774\uAC78\uB85C \uCC44\uBCF4\uB97C \uB9CC\uB4E4\uC5C8\uC2B5\uB2C8\uB2E4.\n\n*\uC120\uACE1
+    \uCC3D\uC758 3\uACE1\uC740 \uBAA8\uB450 \uC790\uC791\uACE1\uC774\uACE0,\n\uD0C0\uC774\uD2C0/\uACB0\uACFC\uCC3D
     \uACE1\uC740 Royalty-Free!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0dc001d7be726c4088a3fb884bff89b, type: 2}
@@ -1023,8 +1025,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -180}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -100, y: -260}
+  m_SizeDelta: {x: 300, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230765748
 MonoBehaviour:
@@ -1046,7 +1048,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 000
+  m_text: '000
+
+    ~
+
+    000'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1081,7 +1087,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1351,8 +1357,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 57580630}
   m_HandleRect: {fileID: 57580628}
   m_Direction: 0
-  m_Value: -0.0007324219
-  m_Size: 0.9987864
+  m_Value: -0.00012207031
+  m_Size: 0.99878436
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5686,7 +5692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5007324, y: 391.5}
+  m_AnchoredPosition: {x: 0.50009155, y: 391.5}
   m_SizeDelta: {x: 824, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1206595234

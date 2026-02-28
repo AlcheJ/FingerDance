@@ -19,12 +19,37 @@ public class SongInfoView : MonoBehaviour
 
     private SongMetaData _meta;
 
+    string FormatBpm(float bpm)
+    {
+        return bpm.ToString("0.###");
+    }
     public void ShowInfo(SongMetaData meta, SavingData record)
     {
         _meta = meta;
 
         _jacketImage.sprite = Resources.Load<Sprite>($"Jackets/{meta.JacketImage}");
-        _bpm.text = meta.Bpm.ToString();
+        float minBpm = meta.Bpm;
+        float maxBpm = meta.Bpm;
+        //변속이 있다면 전체를 훑어서 최저/최고값을 갱신
+        if (meta.BpmEvent != null && meta.BpmEvent.Count > 0)
+        {
+            foreach (var ev in meta.BpmEvent)
+            {
+                if (ev.bpm < minBpm) minBpm = ev.bpm;
+                if (ev.bpm > maxBpm) maxBpm = ev.bpm;
+            }
+        }
+
+        //최저와 최고가 같다면 하나만 표시, 다르다면 범위 표시
+        if (Mathf.Approximately(minBpm, maxBpm))
+        {
+            _bpm.text = FormatBpm(minBpm);
+        }
+        else
+        {
+            _bpm.text = $"{FormatBpm(minBpm)}\n~\n{FormatBpm(maxBpm)}";
+        }
+
         _nmLevel.text = meta.DifficultyList[0].Level.ToString();
         _hdLevel.text = meta.DifficultyList[1].Level.ToString();
 

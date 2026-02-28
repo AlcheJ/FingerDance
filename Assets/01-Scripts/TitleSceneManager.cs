@@ -26,6 +26,8 @@ public class TitleSceneManager : MonoBehaviour
             _titleBGM.Play();
             StartCoroutine(FadeInTitleBGM(1.5f));
         }
+
+        //System.Diagnostics.Process.Start(Application.persistentDataPath);
     }
     void Update()
     {

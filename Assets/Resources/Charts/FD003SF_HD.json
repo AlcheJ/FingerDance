@@ -129,14 +129,14 @@
         {
             "bar": 2,
             "tick": 480,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 2,
             "tick": 480,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -304,14 +304,14 @@
         {
             "bar": 4,
             "tick": 600,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 4,
             "tick": 600,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -395,19 +395,19 @@
         {
             "bar": 6,
             "tick": 480,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 6,
-            "tick": 480,
             "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 6,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 6,
             "tick": 600,
             "lane": 2,
             "noteType": "Short",
@@ -423,14 +423,14 @@
         {
             "bar": 6,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 6,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -752,14 +752,14 @@
         {
             "bar": 11,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 11,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1004,14 +1004,14 @@
         {
             "bar": 15,
             "tick": 240,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 15,
             "tick": 240,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1060,21 +1060,14 @@
         {
             "bar": 15,
             "tick": 1320,
-            "lane": 1,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 15,
-            "tick": 1320,
             "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 15,
-            "tick": 1680,
-            "lane": 0,
+            "tick": 1320,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1086,8 +1079,8 @@
             "durationTick": 0
         },
         {
-            "bar": 16,
-            "tick": 0,
+            "bar": 15,
+            "tick": 1680,
             "lane": 0,
             "noteType": "Short",
             "durationTick": 0
@@ -1096,6 +1089,13 @@
             "bar": 16,
             "tick": 0,
             "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 16,
+            "tick": 0,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1193,14 +1193,14 @@
         {
             "bar": 17,
             "tick": 600,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 600,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1214,14 +1214,14 @@
         {
             "bar": 17,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 17,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1305,14 +1305,14 @@
         {
             "bar": 18,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 18,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1347,14 +1347,14 @@
         {
             "bar": 19,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 19,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1522,14 +1522,14 @@
         {
             "bar": 21,
             "tick": 600,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 600,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1543,14 +1543,14 @@
         {
             "bar": 21,
             "tick": 960,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 21,
             "tick": 960,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1585,14 +1585,14 @@
         {
             "bar": 22,
             "tick": 0,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 22,
             "tick": 0,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1614,13 +1614,6 @@
             "bar": 22,
             "tick": 360,
             "lane": 3,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 22,
-            "tick": 360,
-            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1753,7 +1746,7 @@
         {
             "bar": 23,
             "tick": 1440,
-            "lane": 0,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1795,21 +1788,14 @@
         {
             "bar": 24,
             "tick": 720,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 720,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 24,
-            "tick": 840,
-            "lane": 3,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1817,6 +1803,13 @@
             "bar": 24,
             "tick": 840,
             "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 24,
+            "tick": 840,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1851,28 +1844,28 @@
         {
             "bar": 24,
             "tick": 1440,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1440,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 24,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 360
         },
         {
             "bar": 24,
             "tick": 1680,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -1886,14 +1879,14 @@
         {
             "bar": 25,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1914,42 +1907,49 @@
         {
             "bar": 25,
             "tick": 840,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 25,
             "tick": 840,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 1080,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 1080,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 1320,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 1320,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 25,
+            "tick": 1440,
             "lane": 2,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 25,
-            "tick": 1080,
-            "lane": 1,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 25,
-            "tick": 1080,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 25,
-            "tick": 1320,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 25,
-            "tick": 1320,
-            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1957,13 +1957,6 @@
             "bar": 25,
             "tick": 1440,
             "lane": 3,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 25,
-            "tick": 1440,
-            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1991,14 +1984,14 @@
         {
             "bar": 26,
             "tick": 480,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 480,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2013,6 +2006,13 @@
             "bar": 26,
             "tick": 720,
             "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 26,
+            "tick": 840,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2025,13 +2025,6 @@
         },
         {
             "bar": 26,
-            "tick": 840,
-            "lane": 1,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 26,
             "tick": 1080,
             "lane": 3,
             "noteType": "Short",
@@ -2047,14 +2040,14 @@
         {
             "bar": 26,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 26,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2138,14 +2131,14 @@
         {
             "bar": 27,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 27,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2160,13 +2153,6 @@
             "bar": 27,
             "tick": 1320,
             "lane": 3,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 27,
-            "tick": 1440,
-            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2174,6 +2160,13 @@
             "bar": 27,
             "tick": 1440,
             "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 27,
+            "tick": 1440,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2201,14 +2194,14 @@
         {
             "bar": 28,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2229,14 +2222,14 @@
         {
             "bar": 28,
             "tick": 840,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 840,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2271,14 +2264,14 @@
         {
             "bar": 28,
             "tick": 1440,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 28,
             "tick": 1440,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2306,14 +2299,14 @@
         {
             "bar": 29,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 29,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2376,28 +2369,28 @@
         {
             "bar": 29,
             "tick": 1440,
-            "lane": 2,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 29,
-            "tick": 1440,
             "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 29,
-            "tick": 1680,
+            "tick": 1440,
             "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 29,
+            "tick": 1680,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 360
         },
         {
             "bar": 29,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -2411,14 +2404,14 @@
         {
             "bar": 30,
             "tick": 480,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 480,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2439,14 +2432,14 @@
         {
             "bar": 30,
             "tick": 840,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 30,
             "tick": 840,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2530,14 +2523,14 @@
         {
             "bar": 31,
             "tick": 600,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 31,
             "tick": 600,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2635,14 +2628,14 @@
         {
             "bar": 32,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2663,14 +2656,14 @@
         {
             "bar": 32,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 32,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2712,14 +2705,14 @@
         {
             "bar": 33,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2747,14 +2740,14 @@
         {
             "bar": 33,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 33,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2817,14 +2810,14 @@
         {
             "bar": 34,
             "tick": 360,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 360,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2845,14 +2838,14 @@
         {
             "bar": 34,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 34,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2894,14 +2887,14 @@
         {
             "bar": 35,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2950,14 +2943,14 @@
         {
             "bar": 35,
             "tick": 1200,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 35,
             "tick": 1200,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -2978,14 +2971,14 @@
         {
             "bar": 36,
             "tick": 0,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 0,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3006,14 +2999,14 @@
         {
             "bar": 36,
             "tick": 360,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 360,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3034,14 +3027,14 @@
         {
             "bar": 36,
             "tick": 960,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 36,
             "tick": 960,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3083,14 +3076,14 @@
         {
             "bar": 37,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 37,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3216,21 +3209,14 @@
         {
             "bar": 38,
             "tick": 960,
-            "lane": 2,
-            "noteType": "Long",
-            "durationTick": 360
-        },
-        {
-            "bar": 38,
-            "tick": 960,
             "lane": 3,
             "noteType": "Long",
             "durationTick": 360
         },
         {
             "bar": 38,
-            "tick": 1320,
-            "lane": 1,
+            "tick": 960,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -3238,6 +3224,13 @@
             "bar": 38,
             "tick": 1320,
             "lane": 0,
+            "noteType": "Long",
+            "durationTick": 360
+        },
+        {
+            "bar": 38,
+            "tick": 1320,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -3286,14 +3279,14 @@
         {
             "bar": 39,
             "tick": 600,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 39,
             "tick": 600,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3334,8 +3327,8 @@
         },
         {
             "bar": 39,
-            "tick": 1320,
-            "lane": 2,
+            "tick": 1440,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3370,14 +3363,14 @@
         {
             "bar": 40,
             "tick": 600,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 600,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3391,14 +3384,14 @@
         {
             "bar": 40,
             "tick": 960,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 40,
             "tick": 960,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3426,14 +3419,14 @@
         {
             "bar": 41,
             "tick": 240,
-            "lane": 1,
+            "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 41,
             "tick": 240,
-            "lane": 0,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3468,21 +3461,14 @@
         {
             "bar": 41,
             "tick": 960,
-            "lane": 2,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 41,
-            "tick": 960,
             "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 41,
-            "tick": 1080,
-            "lane": 1,
+            "tick": 960,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3490,6 +3476,13 @@
             "bar": 41,
             "tick": 1080,
             "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 41,
+            "tick": 1080,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3594,14 +3587,14 @@
         {
             "bar": 43,
             "tick": 240,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 240,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3615,14 +3608,14 @@
         {
             "bar": 43,
             "tick": 600,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 600,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3650,14 +3643,14 @@
         {
             "bar": 43,
             "tick": 1080,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1080,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3670,29 +3663,29 @@
         },
         {
             "bar": 43,
-            "tick": 1320,
+            "tick": 1200,
             "lane": 0,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 43,
-            "tick": 1560,
-            "lane": 0,
+            "tick": 1440,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 43,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 360
         },
         {
             "bar": 43,
             "tick": 1680,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -3706,14 +3699,14 @@
         {
             "bar": 44,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 44,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3790,14 +3783,14 @@
         {
             "bar": 44,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Long",
             "durationTick": 360
         },
         {
             "bar": 44,
             "tick": 1680,
-            "lane": 2,
+            "lane": 1,
             "noteType": "Long",
             "durationTick": 360
         },
@@ -3811,14 +3804,21 @@
         {
             "bar": 45,
             "tick": 480,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 45,
             "tick": 480,
-            "lane": 3,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 45,
+            "tick": 720,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3831,8 +3831,8 @@
         },
         {
             "bar": 45,
-            "tick": 720,
-            "lane": 1,
+            "tick": 840,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3845,8 +3845,8 @@
         },
         {
             "bar": 45,
-            "tick": 840,
-            "lane": 3,
+            "tick": 1080,
+            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3859,7 +3859,7 @@
         },
         {
             "bar": 45,
-            "tick": 1080,
+            "tick": 1320,
             "lane": 1,
             "noteType": "Short",
             "durationTick": 0
@@ -3868,13 +3868,6 @@
             "bar": 45,
             "tick": 1320,
             "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 45,
-            "tick": 1320,
-            "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -3944,19 +3937,19 @@
         {
             "bar": 46,
             "tick": 840,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 46,
-            "tick": 840,
             "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 46,
+            "tick": 840,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 46,
             "tick": 1080,
             "lane": 2,
             "noteType": "Short",
@@ -3972,14 +3965,14 @@
         {
             "bar": 46,
             "tick": 1320,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 46,
             "tick": 1320,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -4049,14 +4042,14 @@
         {
             "bar": 47,
             "tick": 600,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 47,
             "tick": 600,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -4168,19 +4161,19 @@
         {
             "bar": 49,
             "tick": 480,
-            "lane": 0,
-            "noteType": "Short",
-            "durationTick": 0
-        },
-        {
-            "bar": 49,
-            "tick": 480,
             "lane": 1,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 49,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 49,
             "tick": 600,
             "lane": 2,
             "noteType": "Short",
@@ -4196,14 +4189,14 @@
         {
             "bar": 49,
             "tick": 960,
-            "lane": 2,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 49,
             "tick": 960,
-            "lane": 3,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -4260,6 +4253,83 @@
             "bar": 51,
             "tick": 0,
             "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 240,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 240,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 480,
+            "lane": 1,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 480,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 600,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 600,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 960,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 960,
+            "lane": 3,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 1440,
+            "lane": 0,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 1680,
+            "lane": 2,
+            "noteType": "Short",
+            "durationTick": 0
+        },
+        {
+            "bar": 51,
+            "tick": 1680,
+            "lane": 3,
             "noteType": "Short",
             "durationTick": 0
         }

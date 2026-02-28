@@ -1809,14 +1809,14 @@
         {
             "bar": 56,
             "tick": 1680,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
         {
             "bar": 56,
             "tick": 1800,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
@@ -1837,7 +1837,7 @@
         {
             "bar": 57,
             "tick": 480,
-            "lane": 1,
+            "lane": 2,
             "noteType": "Short",
             "durationTick": 0
         },
