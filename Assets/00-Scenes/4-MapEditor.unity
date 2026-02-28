@@ -1276,7 +1276,7 @@ MonoBehaviour:
   _gridManager: {fileID: 1116102545}
   _timeDisplayText: {fileID: 725731782}
   _timelineSlider: {fileID: 1558402253}
-  _saveStatusText: {fileID: 0}
+  _saveStatusText: {fileID: 1430778041}
 --- !u!1 &293227311
 GameObject:
   m_ObjectHideFlags: 0
