@@ -27,6 +27,11 @@ public class PopupManager : MonoBehaviour
         _controller.SetInputLock(true);
     }
 
+    public void CloseHowTo()
+    {
+        _controller.SetInputLock(false);
+    }
+
     //Slider-OnValueChanged()
     public void OnVolumeChanged(float value)
     {
