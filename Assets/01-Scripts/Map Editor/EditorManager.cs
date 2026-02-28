@@ -1,9 +1,10 @@
-using System.IO; //JSON 저장용
+using System.Collections;
 using System.Collections.Generic;
+using System.IO; //JSON 저장용
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 //채보 에디터의 기능 총괄
 public class EditorManager : MonoBehaviour
@@ -28,6 +29,9 @@ public class EditorManager : MonoBehaviour
     [SerializeField] private GridManager _gridManager;
     [SerializeField] private TextMeshProUGUI _timeDisplayText;
     [SerializeField] private Slider _timelineSlider;
+
+    [Header("빌드 이후 전용 텍스트")]
+    [SerializeField] private TextMeshProUGUI _saveStatusText;
 
     private float _currentTime = 0f;
     private bool _isPlaying = false;
@@ -57,7 +61,7 @@ public class EditorManager : MonoBehaviour
         _meta = GlobalDataManager.Instance.SelectedSong;
         BuildTempoMap();
         Debug.Log($"[Editor] 템포 맵 빌드 완료. 노드 개수: {_tempoMap.Count}");
-        
+
         AudioClip music = Resources.Load<AudioClip>($"Sounds/{_meta.AudioFileName}");
         if (music != null)
         {
@@ -171,7 +175,7 @@ public class EditorManager : MonoBehaviour
         //SetValueWithoutNotify: 값 변경 이벤트 발생 없이 값만 설정
         if (_timelineSlider != null) _timelineSlider.SetValueWithoutNotify(_currentTime);
         if (_timeDisplayText != null) _timeDisplayText.text = _currentTime.ToString("F3");
-        
+
         UpdateEditVisuals();
     }
 
@@ -280,14 +284,14 @@ public class EditorManager : MonoBehaviour
         int currentNumerator = meta.Numerator;
 
         //totaltick이 어느 마디에 속하는지 검색
-        for(int i = 0; i < 5000; i++) //5000마디까지 검사
+        for (int i = 0; i < 5000; i++) //5000마디까지 검사
         {
             var sigEvent = meta.TimeSignatures.FindLast(s => s.Bar <= i);
             if (sigEvent != null) currentNumerator = sigEvent.Numerator;
 
             long measureLength = (long)currentNumerator * meta.Resolution;
 
-            if(totalTick < currentCumulativeTick + measureLength)
+            if (totalTick < currentCumulativeTick + measureLength)
             {
                 bar = i;
                 innerTick = (int)(totalTick - currentCumulativeTick);
@@ -338,7 +342,7 @@ public class EditorManager : MonoBehaviour
 
             if (note.Type == NoteType.Short)
             {
-                if(note.Bar == bar && note.Tick == tick) return true; //여기에 일반 노트 있음
+                if (note.Bar == bar && note.Tick == tick) return true; //여기에 일반 노트 있음
             }
             else
             {
@@ -376,6 +380,7 @@ public class EditorManager : MonoBehaviour
     //저장 버튼 누르면 JSON에 물리 저장
     public void SaveChart()
     {
+#if UNITY_EDITOR
         var chart = GlobalDataManager.Instance.CurrentChart;
         if (chart == null) return;
 
@@ -386,7 +391,8 @@ public class EditorManager : MonoBehaviour
 
         //데이터 시간순 정렬, JSON으로 변환, 경로 설정
         //저장 직전 Bar, Tick 순으로 정렬
-        chart.Notes.Sort((a, b) => {
+        chart.Notes.Sort((a, b) =>
+        {
             if (a.Bar != b.Bar) return a.Bar.CompareTo(b.Bar);
             return a.Tick.CompareTo(b.Tick);
         });
@@ -400,15 +406,31 @@ public class EditorManager : MonoBehaviour
             File.WriteAllText(path, json);
             Debug.Log($"<color=cyan>[Editor] 저장 성공!</color> 위치: {path}");
 
-            // [에디터 전용] 유니티가 파일 변경을 즉시 인지하도록 새로고침
-#if UNITY_EDITOR
+            //[에디터 전용] 유니티가 파일 변경을 즉시 인지하도록 새로고침
             UnityEditor.AssetDatabase.Refresh();
-#endif
         }
         catch (System.Exception e)
         {
             Debug.LogError($"[Editor] 저장 실패: {e.Message}");
         }
+#else
+    ShowSaveMessage("빌드 버전에서는\n저장이\n불가능합니다!", Color.yellow);
+#endif
+    }
+    void ShowSaveMessage(string msg, Color color)
+    {
+        if (_saveStatusText != null)
+        {
+            _saveStatusText.text = msg;
+            _saveStatusText.color = color;
+            StopAllCoroutines();
+            StartCoroutine(ClearMessageAfterDelay(1.5f));
+        }
+    }
+    IEnumerator ClearMessageAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (_saveStatusText != null) _saveStatusText.text = "";
     }
 
     //선곡 씬으로 회귀(버튼의 On Click()에 연결)
@@ -418,7 +440,8 @@ public class EditorManager : MonoBehaviour
 
         //에디터용 임시 데이터 해제
         GlobalDataManager.Instance.SetCurrentChart(null);
-        GlobalDataManager.Instance.FadeOut(0.5f, () => {
+        GlobalDataManager.Instance.FadeOut(0.5f, () =>
+        {
             SceneManager.LoadScene("1-SongSelect");
         });
     }
