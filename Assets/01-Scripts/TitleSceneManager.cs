@@ -10,6 +10,11 @@ public class TitleSceneManager : MonoBehaviour
     private bool _isStarting = false;
     private bool _canInput = false;
 
+    void Awake()
+    {
+        Screen.SetResolution(1920, 1080, FullScreenMode.Windowed);
+    }
+
     void Start()
     {
         if (GlobalDataManager.Instance != null)
